@@ -1,5 +1,73 @@
+@import 'src/styles/variables';
+
+
 .header {
-  background-color: antiquewhite;
-  width: 100%;
-  height: 60px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  position: relative;
+
+}
+
+.wrapper {
+  display: flex;
+}
+
+.logo {
+
+}
+
+.logoLink {
+  display: block;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.contactInfo {
+  display: flex;
+
+}
+
+.contactInfoItem {
+  display: flex;
+  padding-right: 40px;
+}
+
+.contactInfoIcon {
+  margin-right: 8px;
+
+}
+
+.contactInfoText {
+  color: $font-gray;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+
+}
+
+.contactInfoDay {
+
+}
+
+.contactInfoHour {
+
+}
+
+.phone {
+  align-items: flex-end;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+
+.phoneCode {
+
+}
+
+.phoneNumber {
+
 }
