@@ -8,8 +8,14 @@
 
 }
 
+.container {
+
+}
+
 .wrapper {
   display: flex;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .logo {
@@ -17,21 +23,25 @@
 }
 
 .logoLink {
-  display: block;
+
+
 }
 
 .right {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+
 }
 
 .contactInfo {
   display: flex;
 
+
 }
 
 .contactInfoItem {
+
   display: flex;
   padding-right: 40px;
 }
@@ -61,13 +71,22 @@
   align-items: flex-end;
   display: flex;
   margin-bottom: 5px;
+  font-weight: bold;
+  line-height: 1;
 }
 
 
 .phoneCode {
-
+  color: #BBB;
+  font-size: 18px;
+  margin-right: 6px;
+  line-height: 1;
 }
 
+
 .phoneNumber {
+  color: #333;
+  font-size: 28px;
+  line-height: 0.8;
 
 }

@@ -1,0 +1,60 @@
+@import 'src/styles/variables';
+
+.Menu {
+  position: relative;
+  z-index: 10;
+  background-color: $white;
+  height: 100%;
+  width: 100%;
+  transition: height .3s ease;
+}
+
+.container {
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+  align-items: center;
+  display: flex;
+  height: 50px;
+
+}
+
+.menuMobile {
+  display: none;
+}
+
+.menuLogo {
+  display: none;
+}
+
+.menuLogoLink {
+
+}
+
+.menuList {
+  font-size: 14px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.menuItem {
+  align-self: center;
+  height: 100%;
+  margin-right: 40px;
+  line-height: 1;
+}
+
+.menuItem:first-child a{
+  color: $font-green;
+}
+
+.menuLink {
+  display: block;
+  color: $font-gray;
+  height: 100%;
+  text-decoration: none;
+}
+
+.menuLink:hover {
+  color: $font-green;
+  transition: all 0.3s ease;
+}

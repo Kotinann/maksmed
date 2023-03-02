@@ -6,7 +6,7 @@ import ClockIcon from "../../assets/icons/clock.svg"
 export default function Header() {
     return (
         <div className={styles.header}>
-            <div className="container">
+            <div className={styles.container}>
                 <div className={styles.wrapper}>
                     <div className={styles.logo}>
                         <a className={styles.logoLink} href="#">
