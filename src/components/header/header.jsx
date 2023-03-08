@@ -6,7 +6,7 @@ import ClockIcon from "../../assets/icons/clock.svg"
 export default function Header() {
     return (
         <div className={styles.header}>
-            <div className={styles.container}>
+            <div className="container">
                 <div className={styles.wrapper}>
                     <div className={styles.logo}>
                         <a className={styles.logoLink} href="#">
@@ -26,7 +26,7 @@ export default function Header() {
                                         <ClockIcon />
                                 </div>
                                 <div className={styles.contactInfoText}>
-                                        <div className={styles.contactInfoDay}>ПН, СР, ПТ:</div>
+                                        <div className={styles.contactInfoDay}>ПН, СР, ПТ: </div>
                                         <div className={styles.contactInfoHour}>09:00~20:00</div>
                                 </div>
                             </div>

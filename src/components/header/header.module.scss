@@ -2,23 +2,26 @@
 
 
 .header {
-  padding-top: 35px;
+  padding-top: 30px;
   padding-bottom: 15px;
   position: relative;
 
 }
 
 .container {
+  position: relative;
 
 }
+
 
 .wrapper {
   display: flex;
-  margin-right: 0;
-  margin-left: 0;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
+  margin-right: 170px;
 
 }
 
@@ -28,22 +31,20 @@
 }
 
 .right {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-
 }
 
 .contactInfo {
   display: flex;
-
-
 }
 
 .contactInfoItem {
-
   display: flex;
-  padding-right: 40px;
+  align-items: center;
+  padding-right: 100px;
+
 }
 
 .contactInfoIcon {
@@ -52,20 +53,24 @@
 }
 
 .contactInfoText {
+  display: flex;
+  align-items: center;
   color: $font-gray;
   font-size: 13px;
   font-weight: 600;
   line-height: 1.4;
 
+
 }
 
 .contactInfoDay {
-
+  margin-right: 4px;
 }
 
 .contactInfoHour {
 
 }
+
 
 .phone {
   align-items: flex-end;
@@ -73,6 +78,7 @@
   margin-bottom: 5px;
   font-weight: bold;
   line-height: 1;
+  margin-left: auto;
 }
 
 
