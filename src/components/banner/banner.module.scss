@@ -1,12 +1,9 @@
 @import 'src/styles/variables';
 
 .banner {
-
   text-align: center;
   position: relative;
   background-color: $light-gray;
-
-
 }
 
 .container {
@@ -17,10 +14,9 @@
   height: 600px;
   background-image: url("../../assets/img/doctors/bannerDoctors.png");
   background-repeat: no-repeat;
-  background-position: 85% 20px;
+  background-position: 95% 20px;
   background-size: contain;
   padding: 125px 0;
-
 }
 
 .bannerMobImg {

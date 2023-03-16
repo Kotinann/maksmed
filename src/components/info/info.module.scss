@@ -1,0 +1,67 @@
+@import 'src/styles/variables';
+
+.info {
+
+
+}
+
+.container {
+
+}
+
+.wrapper {
+}
+
+
+.infoTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: $font-black;
+  padding-top: 104px;
+  padding-bottom: 48px;
+
+
+}
+
+.Right {
+  background-image: url("../../assets/img/doctors/infoDoc.png");
+  background-repeat: no-repeat;
+  background-position: 88% 0px;
+  background-size: contain;
+  margin-bottom: 48px;
+}
+
+.Left {
+  background-image: url("../../assets/img/doctors/infoPatient.png");
+  background-repeat: no-repeat;
+  background-position: 0% 10px;
+  background-size: contain;
+  display: flex;
+}
+
+
+.infoSubTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: $font-black;
+  padding-bottom: 18px;
+}
+
+.infoText {
+  width: 100%;
+  max-width: 555px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: $font-black;
+}
+
+.infoText p {
+  padding-bottom: 12px;
+}
+
+
+
