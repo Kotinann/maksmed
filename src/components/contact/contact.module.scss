@@ -1,0 +1,208 @@
+.contact {
+  padding-top: 80px
+}
+
+.drive-dir__map {
+  position: relative
+}
+
+@media only screen and (max-width: 1200px) {
+  .drive-dir__map {
+    display:-ms-flexbox;
+    display: flex;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .drive-dir__map {
+    -ms-flex-align:center;
+    align-items: center;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse
+  }
+}
+
+.title {
+  margin-bottom: 30px
+}
+
+.desc {
+
+}
+
+.map {
+  height: 500px;
+  width: 100%
+}
+
+@media only screen and (max-width: 1200px) {
+  .drive-dir .map {
+    height:350px
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .drive-dir .map {
+    height:200px
+  }
+}
+
+.drive-dir__info {
+  background-color: #7DBA32;
+  color: #fff;
+  padding: 30px 40px;
+  z-index: 10;
+  max-width: 360px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -570px;
+  margin-top: -175px
+}
+
+@media only screen and (max-width: 1200px) {
+  .drive-dir__info {
+    position:relative;
+    -ms-transform: none;
+    transform: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 50%;
+    margin: 0
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .drive-dir__info {
+    max-width:100%;
+    font-size: 14px;
+    line-height: 23px
+  }
+}
+
+.drive-dir__info a {
+  color: #fff;
+  text-decoration: underline;
+  font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system
+}
+
+.drive-dir__info a:hover {
+  color: #fff;
+  text-decoration: none
+}
+
+.drive-dir__info-tlt {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 36px;
+  font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system
+}
+
+@media only screen and (max-width: 1200px) {
+  .drive-dir__info-tlt {
+    text-align:center;
+    margin-bottom: 0
+  }
+}
+
+.drive-dir__info-descr {
+  line-height: 29px;
+  font-size: 20px;
+  margin-bottom: 30px
+}
+
+@media only screen and (max-width: 1200px) {
+  .drive-dir__info-descr {
+    text-align:center
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .drive-dir__info-descr {
+    font-size:16.5px;
+    line-height: 23px;
+    margin-bottom: 12px
+  }
+}
+
+.drive-dir__address {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system
+}
+
+@media only screen and (max-width: 1200px) {
+  .drive-dir__address {
+    font-size:16.5px;
+    text-align: center;
+    margin-bottom: 14px
+  }
+}
+
+.drive-dir__regim {
+  max-width: 250px;
+  margin: 0 auto;
+  font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system
+}
+
+@media only screen and (max-width: 1200px) {
+  .drive-dir__regim {
+    padding-left:30px;
+    font-size: 16.5px
+  }
+}
+
+.drive-dir__contact {
+  margin-top: 25px
+}
+
+@media only screen and (max-width: 1200px) {
+  .drive-dir__contact {
+    text-align:center
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .drive-dir__contact {
+    margin-top:14px
+  }
+}
+
+.drive-dir__contact-phone {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px
+}
+
+.drive-dir__contact-phone a {
+  font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system
+}
+
+@media only screen and (max-width: 767px) {
+  .drive-dir__contact-phone {
+    font-size:18px
+  }
+}
+
+.drive-dir__contact-phone a {
+  text-decoration: none
+}
+
+.drive-dir__contact-callback {
+  font-size: 16.5px;
+  line-height: 24px
+}
+
+@media only screen and (max-width: 767px) {
+  .drive-dir__contact-callback {
+    margin-top:7px;
+    font-size: 14px;
+    line-height: 23px
+  }
+}

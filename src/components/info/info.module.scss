@@ -13,7 +13,7 @@
 }
 
 
-.infoTitle {
+.title {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -25,24 +25,17 @@
 
 }
 
-.Right {
-  background-image: url("../../assets/img/doctors/infoDoc.png");
-  background-repeat: no-repeat;
-  background-position: 88% 0px;
-  background-size: contain;
+.block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 32px;
+  row-gap: 48px;
   margin-bottom: 48px;
 }
 
-.Left {
-  background-image: url("../../assets/img/doctors/infoPatient.png");
-  background-repeat: no-repeat;
-  background-position: 0% 10px;
-  background-size: contain;
-  display: flex;
-}
 
-
-.infoSubTitle {
+.subTitle {
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
@@ -50,7 +43,13 @@
   padding-bottom: 18px;
 }
 
-.infoText {
+.textWrap {
+  //display: flex;
+  //align-items: flex-start;
+  //justify-content: space-between;
+}
+
+.text {
   width: 100%;
   max-width: 555px;
   font-weight: 400;
@@ -59,8 +58,18 @@
   color: $font-black;
 }
 
-.infoText p {
+.text p {
   padding-bottom: 12px;
+}
+
+.image {
+
+  //img {
+  //  display: block;
+  //  width: 100%;
+  //  max-width: 555px;
+  //  height: auto;
+  //}
 }
 
 
