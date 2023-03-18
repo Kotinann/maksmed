@@ -1,0 +1,77 @@
+@import 'src/styles/variables';
+
+.rewiews {
+ padding-top: 104px;
+  padding-bottom: 104px;
+}
+
+.container {
+
+}
+
+.wrapper {
+
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: $black;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #666666;
+  margin-bottom: 16px;
+
+}
+
+.reviewsWrap {
+  background: #BCD5D6;
+  border-radius: 2px;
+  display: flex;
+  border-bottom: 4px solid $green;
+}
+
+.desc {
+  width: 100%;
+  max-width: 555px;
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: #293A34;
+}
+
+.reviewsImage {
+
+}
+
+.img {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  max-width: 263px;
+}
+
+.name {
+  color: $white;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.all {
+
+}
+

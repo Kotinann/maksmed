@@ -1,0 +1,81 @@
+@import 'src/styles/variables';
+
+.diagnostics {
+  padding-top: 104px;
+
+}
+
+.container {
+
+}
+
+.wrapper {
+
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 32px;
+  line-height: normal;
+  text-align: center;
+  color: $black;
+
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #666666;
+  margin-bottom: 48px;
+
+}
+
+.block {
+  padding-right: 0;
+  padding-left: 0;
+  display: flex;
+
+}
+
+.info {
+  background-color: $green;
+  padding: 48px 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.tlt {
+  width: 100%;
+  max-width: 532px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #E9EFED;
+  margin-bottom: 36px;
+}
+
+.image{
+
+
+}
+
+.list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #E9EFED;
+}
+
+.items {
+  list-style-type: square;
+  margin-bottom: 15px;
+  margin-left: 20px;
+
+}
+
+

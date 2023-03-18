@@ -6,8 +6,12 @@ import Menu from "@/components/menu/menu";
 import Banner from "@/components/banner/banner";
 import Info from "@/components/info/info";
 import Price from "@/components/price/price";
+import Diagnostics from "@/components/diagnostics/diagnostics";
+import Reviews from  "@/components/reviews/reviews";
+import Diploms from "@/components/diploms/diploms";
+import Subs from "@/components/subs/subs";
+import Parlor from "@/components/parlor/parlor";
 import Footer from "@/components/footer/footer";
-import Contact from "@/components/contact/contact";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,7 +31,11 @@ export default function Home() {
           <Banner />
           <Info />
           <Price />
-          <Contact />
+          <Diagnostics />
+          <Reviews />
+          <Diploms />
+          <Subs />
+          <Parlor />
         <Footer />
       </main>
     </>
