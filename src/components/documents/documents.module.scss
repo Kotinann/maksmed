@@ -1,0 +1,46 @@
+@import 'src/styles/variables';
+
+.documents {
+  padding-top: 104px;
+}
+
+.container {
+
+}
+
+.wrapper {
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: $black;
+  margin-bottom: 34px;
+}
+
+.block{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #BBB;
+  padding: 8px 0;
+
+}
+
+.year {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 26px;
+   color: $green;
+
+}
+
+.name a {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333333;
+   padding-left: 18px;
+}
+

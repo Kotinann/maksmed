@@ -11,6 +11,8 @@ import Reviews from  "@/components/reviews/reviews";
 import Diploms from "@/components/diploms/diploms";
 import Subs from "@/components/subs/subs";
 import Parlor from "@/components/parlor/parlor";
+import Documents from "@/components/documents/documents";
+import Contact from "@/components/contact/contact";
 import Footer from "@/components/footer/footer";
 
 const inter = Inter({ subsets: ['latin'] })
@@ -36,7 +38,9 @@ export default function Home() {
           <Diploms />
           <Subs />
           <Parlor />
-        <Footer />
+          <Documents />
+          <Contact />
+          <Footer />
       </main>
     </>
   )

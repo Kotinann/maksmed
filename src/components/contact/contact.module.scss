@@ -1,58 +1,54 @@
+@import 'src/styles/variables';
+
 .contact {
-  padding-top: 80px
+  padding-top: 80px;
 }
 
-.drive-dir__map {
-  position: relative
+.map {
+  position: relative;
+  height: 500px;
+  width: 100%;
+
 }
 
 @media only screen and (max-width: 1200px) {
-  .drive-dir__map {
-    display:-ms-flexbox;
+  .map {
+    height:350px;
     display: flex;
-    -ms-flex-align: stretch;
     align-items: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch
+    align-content: stretch;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .drive-dir__map {
-    -ms-flex-align:center;
+  .map {
+    height:200px;
     align-items: center;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse
+    flex-direction: column-reverse;
   }
 }
 
 .title {
-  margin-bottom: 30px
+   margin-bottom: 15px;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: normal;
+   text-align: center;
+   color: $black;
 }
 
 .desc {
+    margin: 0 auto 31px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16.5px;
+    line-height: 26px;
+    text-align: center;
 
 }
 
-.map {
-  height: 500px;
-  width: 100%
-}
-
-@media only screen and (max-width: 1200px) {
-  .drive-dir .map {
-    height:350px
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .drive-dir .map {
-    height:200px
-  }
-}
-
-.drive-dir__info {
-  background-color: #7DBA32;
+.info {
+  background-color: $green;
   color: #fff;
   padding: 30px 40px;
   z-index: 10;
@@ -61,11 +57,11 @@
   top: 50%;
   left: 50%;
   margin-left: -570px;
-  margin-top: -175px
+  margin-top: -175px;
 }
 
 @media only screen and (max-width: 1200px) {
-  .drive-dir__info {
+  .info {
     position:relative;
     -ms-transform: none;
     transform: none;
@@ -73,136 +69,159 @@
     left: 0;
     width: 100%;
     max-width: 50%;
-    margin: 0
+    margin: 0;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .drive-dir__info {
+  .info {
     max-width:100%;
     font-size: 14px;
-    line-height: 23px
+    line-height: 23px;
   }
 }
 
-.drive-dir__info a {
+.info a {
   color: #fff;
   text-decoration: underline;
-  font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system
 }
 
-.drive-dir__info a:hover {
+.info a:hover {
   color: #fff;
-  text-decoration: none
+  text-decoration: none;
 }
 
-.drive-dir__info-tlt {
+.infoTlt {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
   line-height: 36px;
-  font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system
+  text-align: center;
 }
 
 @media only screen and (max-width: 1200px) {
-  .drive-dir__info-tlt {
+  .driveInfoTlt {
     text-align:center;
-    margin-bottom: 0
+    margin-bottom: 0;
   }
 }
 
-.drive-dir__info-descr {
-  line-height: 29px;
-  font-size: 20px;
-  margin-bottom: 30px
+.infoDescr {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 38px;
 }
 
 @media only screen and (max-width: 1200px) {
-  .drive-dir__info-descr {
-    text-align:center
+  .infoDescr {
+    text-align:center;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .drive-dir__info-descr {
+  .infoDescr{
     font-size:16.5px;
     line-height: 23px;
-    margin-bottom: 12px
+    margin-bottom: 12px;
   }
 }
 
-.drive-dir__address {
+.address {
+  font-weight: 400;
   font-size: 14px;
+  line-height: 23px;
+  text-align: center;
   margin-bottom: 10px;
-  font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system
 }
 
 @media only screen and (max-width: 1200px) {
-  .drive-dir__address {
+  .address {
     font-size:16.5px;
     text-align: center;
-    margin-bottom: 14px
+    margin-bottom: 14px;
   }
 }
 
-.drive-dir__regim {
-  max-width: 250px;
-  margin: 0 auto;
-  font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system
+.regim {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
 }
 
 @media only screen and (max-width: 1200px) {
-  .drive-dir__regim {
+  .regim {
     padding-left:30px;
-    font-size: 16.5px
+    font-size: 16.5px;
   }
 }
 
-.drive-dir__contact {
-  margin-top: 25px
+.day {
+  margin-right: 4px;
+}
+
+.hour {
+
+}
+
+
+.contact {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1200px) {
-  .drive-dir__contact {
-    text-align:center
+  .cntact {
+    text-align:center;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .drive-dir__contact {
-    margin-top:14px
+  .contact {
+    margin-top:14px;
   }
 }
 
-.drive-dir__contact-phone {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 36px
+.contactPhone {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
 }
 
-.drive-dir__contact-phone a {
+.contactPhone a {
   font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system
 }
 
 @media only screen and (max-width: 767px) {
-  .drive-dir__contact-phone {
-    font-size:18px
+  .contactPhone {
+    font-size:18px;
   }
 }
 
-.drive-dir__contact-phone a {
-  text-decoration: none
+.contactPhone a {
+  text-decoration: none;
 }
 
-.drive-dir__contact-callback {
-  font-size: 16.5px;
-  line-height: 24px
+.contactCallback {
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 23px;
+ text-align: center;
+ text-decoration-line: underline;
 }
 
 @media only screen and (max-width: 767px) {
-  .drive-dir__contact-callback {
+  .contactCallback {
     margin-top:7px;
     font-size: 14px;
-    line-height: 23px
+    line-height: 23px;
   }
 }
