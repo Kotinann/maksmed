@@ -44,16 +44,6 @@ export default function Documents() {
                         </div>
                         <div className={styles.name}>
                             <a href="#">
-                                Лицензия с приложением
-                            </a>
-                        </div>
-                    </div>
-                    <div className={styles.block}>
-                        <div className={styles.year}>
-                            2018
-                        </div>
-                        <div className={styles.name}>
-                            <a href="#">
                                 Информация о врачах, ведущих прием в клинике
                             </a>
                         </div>
