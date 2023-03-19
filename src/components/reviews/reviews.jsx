@@ -1,6 +1,7 @@
 import styles from "./reviews.module.scss"
 import reviewsImg from "../../assets/img/doctors/reviewsImg.png";
 import Image from "next/image";
+import ReviewsCard from "@/components/reviews/reviews-card/reviews-card";
 
 export default function Reviews() {
     return (
@@ -15,8 +16,10 @@ export default function Reviews() {
                     </div>
                     <div className={styles.reviewsWrap}>
                         <div className={styles.desc}>
-                            <p>"Мне повезло вовремя найти того самого мануального терапевта. Не теряйте время, как я —
-                                приходите сразу в «Максмед»“.</p>
+                            <p>
+                                “Мне повезло вовремя найти того самого мануального терапевта. Не теряйте время, как я —
+                                приходите сразу в «Максмед»“.
+                            </p>
                         </div>
                         <div className={styles.ReviewsImage}>
                         <div className={styles.Img}>
@@ -28,7 +31,10 @@ export default function Reviews() {
                         </div>
                     </div>
                     <div className={styles.all}>
-
+                        <ReviewsCard />
+                        <ReviewsCard />
+                        <ReviewsCard />
+                        <ReviewsCard />
                     </div>
                 </div>
             </div>
