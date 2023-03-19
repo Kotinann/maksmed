@@ -3,6 +3,7 @@
 .footer {
   background-color: $green;
   padding: 40px 0;
+  color: #E9EFED;
 
 }
 
@@ -20,25 +21,36 @@
 }
 
 .list {
-
+  font-size: 16px;
 }
 
 .items {
+  line-height: 26px;
 
 }
 
 .link {
-
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  color: #E9EFED;
 }
 
 .reverseCol {
-
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .license {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .footerRight {
+
 
 }
 
@@ -47,12 +59,36 @@
 }
 
 .social {
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.social a {
 
 }
 
 .vkIcon {
-
+  margin-right: 20px;
 }
 
 .instIcon {
+}
+
+.cookie {
+  font-size: 12px;
+  line-height: 20px;
+
+}
+
+.footerLeft {
+
+}
+
+.proticopokaz {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  max-width: 250px;
 }

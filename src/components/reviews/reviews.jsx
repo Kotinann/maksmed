@@ -1,7 +1,7 @@
 import styles from "./reviews.module.scss"
-import reviewsImg from "../../assets/img/doctors/reviewsImg.png";
-import Image from "next/image";
+import ReviewsImg from "../../assets/img/doctors/reviewsImg.png";
 import ReviewsCard from "@/components/reviews/reviews-card/reviews-card";
+import Image from "next/image";
 
 export default function Reviews() {
     return (
@@ -23,7 +23,7 @@ export default function Reviews() {
                         </div>
                         <div className={styles.ReviewsImage}>
                         <div className={styles.Img}>
-                            <Image src={reviewsImg} alt="reviews" />
+                            <Image className={styles.img} src={ReviewsImg} alt="reviews" />
                         </div>
                         <div className={styles.name}>
                             Анастасия Федорова
@@ -31,9 +31,6 @@ export default function Reviews() {
                         </div>
                     </div>
                     <div className={styles.all}>
-                        <ReviewsCard />
-                        <ReviewsCard />
-                        <ReviewsCard />
                         <ReviewsCard />
                     </div>
                 </div>

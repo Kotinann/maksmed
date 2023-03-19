@@ -47,26 +47,39 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className={styles.reverseCol}>
-                        <div className={styles.lisense}>
-                            <p>ООО «Максмед».<br/>Пермь, Самара, ул.Ново-Садовая 252
-                                <br/>Лицензия № ЛО-63-01-004694 от 4 июля 2018 г.</p>
-                        </div>
-                    </div>
-                    <div className={styles.footerRight}>
-                        <div className={styles.footerSocial}>
-                            <div className={styles.social}>
-                                <a href="#" className={styles.vkIcon}>
-                                    <VkIcon />
-                                </a>
-                                <a href="#" className={styles.instIcon}>
-                                    <InstIcon />
-                                </a>
+                            <div className={styles.license}>
+                                <p>ООО «Максмед».<br/>Пермь, Самара, ул.Ново-Садовая 252
+                                    <br/>Лицензия № ЛО-63-01-004694 от 4 июля 2018 г.</p>
                             </div>
-                        </div>
+                            <div className={styles.footerSocial}>
+                                <div className={styles.social}>
+                                    <a href="#" className={styles.vkIcon}>
+                                        <VkIcon/>
+                                    </a>
+                                    <a href="#" className={styles.instIcon}>
+                                        <InstIcon/>
+                                    </a>
+                                </div>
+                            </div>
                     </div>
-
+                        <div className={styles.proticopokaz}>
+                            <p>
+                                Внимание! Имеются противопоказания. необходима консультация специалиста
+                            </p>
+                        </div>
+                    <div className={styles.cookie}>
+                        <p>
+                            Этот сайт использует «cookies». Условия использования «cookies» см. на странице
+                            «Конфиденциальность персональной информации». Также сайт использует Интернет-сервис
+                            для
+                            сбора технических данных касательно посетителей с целью получения маркетинговой и
+                            статистической информации. Условия обработки данных посетителей сайта см. в <a
+                            href="/privacy.html">Политике конфиденциальности</a>. Нажимая кнопку «ОК», вы
+                            подтверждаете ваше согласие на обработку данных на указанных выше условиях.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-)
+    )
 }

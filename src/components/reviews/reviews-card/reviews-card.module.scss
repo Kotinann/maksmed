@@ -1,5 +1,111 @@
 @import 'src/styles/variables';
 
 .card {
-  background-color: #096D78;
+  padding-top: 24px;
+
+}
+
+
+.container {
+
+}
+
+.wrapper {
+
+
+
+}
+
+
+.block {
+  width: 100%;
+  max-width: 263px;
+  background: #F5F5F5;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.head {
+  padding: 20px 20px 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.avatar {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.all {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $green;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+}
+
+.dody {
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  //width: 220px;
+  max-width: 100%;
+
+}
+
+.name {
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.text p {
+  width: 100%;
+  max-width: 700px;
+  font-size: 14px;
+  line-height: 23px;
+  padding: 0 20px;
+  color: #666666;
+}
+
+.link {
+  align-self: flex-start;
+  text-align: left;
+  font-size: 16px;
+  text-decoration: none;
+  color: #0085CB;
+  padding: 0 20px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
 }
