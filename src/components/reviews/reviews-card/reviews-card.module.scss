@@ -40,9 +40,15 @@
 }
 
 .avatar {
-  position: relative;
-  width: 64px;
-  height: 64px;
+
+  img {
+    position: relative;
+    border-radius: 100px;
+    width: 100%;
+    max-width: 64px;
+    height: 64px;
+  }
+
 }
 
 .img {

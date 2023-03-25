@@ -18,7 +18,7 @@ export default function Banner() {
                                 Клиника мануальной терапии и массажа
                             </div>
                             <div className={styles.bannerDescr}>
-                                Основатель и главный врач — дипломированный мануальный терапевт. Стаж более 18 лет.
+                                Основатель и главный врач — дипломированный мануальный терапевт Гаркин Максим. Стаж более 18 лет.
                             </div>
                             <div className={styles.bannerButton}>
                                 <a className={styles.bannerButtonOpen} href="#">

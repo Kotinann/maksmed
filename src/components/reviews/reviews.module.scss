@@ -2,15 +2,9 @@
 
 .rewiews {
   background-color: #FFFFFF;
- padding-top: 104px;
+  padding-top: 104px;
   padding-bottom: 104px;
-}
 
-.container {
-
-}
-
-.wrapper {
 
 }
 
@@ -23,21 +17,13 @@
   margin-bottom: 16px;
 }
 
-.subtitle {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 33px;
-  text-align: center;
-  color: #666666;
-  margin-bottom: 16px;
-
-}
 
 .reviewsWrap {
+  height: 304px;
   background: #BCD5D6;
   border-radius: 2px;
   display: flex;
-  border-bottom: 4px solid $green;
+  padding: 63px 90px;
 }
 
 .desc {
@@ -54,25 +40,41 @@
 }
 
 .reviewsImage {
+  position: relative;
+  bottom: 40px;
+  right: -160px;
 
 }
 
-.img {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  width: 100%;
-  max-width: 263px;
+.imgWrap {
+
+  img {
+    width: 100%;
+    max-width: 257px;
+  }
 }
 
 .name {
+  position: absolute;
+  bottom: -80px;
+  left: -20px;
   color: $white;
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
 }
 
+.line {
+  margin-top: 32px;
+  background: $green;
+  width: 100%;
+  max-width: 1140px;
+  height: 4px;
+}
 .all {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 32px;
 
 }
 

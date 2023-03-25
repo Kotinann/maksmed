@@ -2,6 +2,7 @@ import styles from "./reviews.module.scss"
 import ReviewsImg from "../../assets/img/doctors/reviewsImg.png";
 import ReviewsCard from "@/components/reviews/reviews-card/reviews-card";
 import Image from "next/image";
+import reviewsData from "@/components/reviews/reviews-data";
 
 export default function Reviews() {
     return (
@@ -11,9 +12,6 @@ export default function Reviews() {
                     <div className={styles.title}>
                         Отзывы и истории пациентов
                     </div>
-                    <div className={styles.subtitle}>
-                        100% реальные. Возможно вы знаете кого-то из них
-                    </div>
                     <div className={styles.reviewsWrap}>
                         <div className={styles.desc}>
                             <p>
@@ -21,17 +19,27 @@ export default function Reviews() {
                                 приходите сразу в «Максмед»“.
                             </p>
                         </div>
-                        <div className={styles.ReviewsImage}>
-                        <div className={styles.Img}>
-                            <Image className={styles.img} src={ReviewsImg} alt="reviews" />
-                        </div>
-                        <div className={styles.name}>
-                            Анастасия Федорова
-                        </div>
+                        <div className={styles.reviewsImage}>
+                            <div className={styles.imgWrap}>
+                                <Image className={styles.img} src={ReviewsImg} alt="reviews" />
+                            </div>
+                            <div className={styles.name}>
+                                Анастасия<br/> Федорова
+                            </div>
                         </div>
                     </div>
+                    <div className={styles.line}>
+                    </div>
                     <div className={styles.all}>
-                        <ReviewsCard />
+                        {reviewsData.map((reviewsDataItem,index) => {
+                            return <ReviewsCard
+                                key={index}
+                                avatar={reviewsDataItem.avatar}
+                                name={reviewsDataItem.name}
+                                text={reviewsDataItem.text}
+                                link={reviewsDataItem.link}
+                            />
+                        })}
                     </div>
                 </div>
             </div>
