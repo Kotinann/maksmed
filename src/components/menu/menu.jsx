@@ -1,50 +1,101 @@
 import styles from './menu.module.scss'
 import LogoIcon from "../../assets/icons/logo.svg"
+import VkIcon from "@/assets/icons/vk.svg";
+import InstIcon from "@/assets/icons/inst.svg";
+
 
 export default function Menu() {
     return (
         <nav className={styles.menu}>
             <div className={styles.container}>
-                <div className={styles.menuMobile}>
-                    <a href="#"><span></span></a>
-                </div>
-                <div className={styles.menuLogo}>
-                    <a className={styles.menuLogoLink}  href="#">
-                        <LogoIcon />
+                <div className={styles.burger}>
+                    <a className={styles.hamburger} href="#">
+                        <span></span>
                     </a>
                 </div>
-                <ul className={styles.menuList}>
-                    <li className={styles.menuItem}>
-                        <a className={styles.menuLink} href="#">
+                <div className={styles.logo}>
+                    <a className={styles.logoLink} href="#">
+                        <LogoIcon/>
+                    </a>
+                </div>
+                <ul className={styles.list}>
+                    <li className={styles.item}>
+                        <a className={styles.link} href="#">
                             О клинике
                         </a>
                     </li>
-                    <li className={styles.menuItem}>
-                        <a className={styles.menuLink} href="#">
+                    <li className={styles.item}>
+                        <a className={styles.link} href="#">
                             Цены
                         </a>
                     </li>
-                    <li className={styles.menuItem}>
-                        <a className={styles.menuLink} href="#">
+                    <li className={styles.item}>
+                        <a className={styles.link} href="#">
                             Отзывы
                         </a>
                     </li>
-                    <li className={styles.menuItem}>
-                        <a className={styles.menuLink} href="#">
+                    <li className={styles.item}>
+                        <a className={styles.link} href="#">
                             Дипломы
                         </a>
                     </li>
-                    <li className={styles.menuItem}>
-                        <a className={styles.menuLink} href="#">
+                    <li className={styles.item}>
+                        <a className={styles.link} href="#">
                             Документы
                         </a>
                     </li>
-                    <li className={styles.menuItem}>
-                        <a className={styles.menuLink} href="#">
+                    <li className={styles.item}>
+                        <a className={styles.link} href="#">
                             Контакты
                         </a>
                     </li>
                 </ul>
+                {/*<div className={styles.mobClose}>
+                    <nav className={styles.menuNav}>
+                        <ul className={styles.mobList}>
+                            <li className={styles.mobItem}>
+                                <a className={styles.mobLink} href="#">
+                                    О клинике
+                                </a>
+                            </li>
+                            <li className={styles.mobItem}>
+                                <a className={styles.mobLink} href="#">
+                                    Цены
+                                </a>
+                            </li>
+                            <li className={styles.mobItem}>
+                                <a className={styles.mobLink} href="#">
+                                    Отзывы
+                                </a>
+                            </li>
+                            <li className={styles.mobItem}>
+                                <a className={styles.mobLink} href="#">
+                                    Дипломы
+                                </a>
+                            </li>
+                            <li className={styles.mobItem}>
+                                <a className={styles.mobLink} href="#">
+                                    Документы
+                                </a>
+                            </li>
+                            <li className={styles.mobItem}>
+                                <a className={styles.mobLink} href="#">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div className={styles.mobSocial}>
+                        <div className={styles.social}>
+                            <a href="#" className={styles.vkIcon}>
+                                <VkIcon/>
+                            </a>
+                            <a href="#" className={styles.instIcon}>
+                                <InstIcon/>
+                            </a>
+                        </div>
+                    </div>*/}
+                {/*</div>*/}
             </div>
         </nav>
     )

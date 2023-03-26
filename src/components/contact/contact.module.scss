@@ -2,6 +2,14 @@
 
 .contact {
   padding-top: 80px;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
 
 .map {
@@ -9,41 +17,41 @@
   height: 500px;
   width: 100%;
 
-}
-
-@media only screen and (max-width: 1200px) {
-  .map {
-    height:350px;
+  @media only screen and (max-width: 1023px) {
+    height: 350px;
     display: flex;
     align-items: stretch;
     align-content: stretch;
   }
-}
 
-@media only screen and (max-width: 767px) {
-  .map {
-    height:200px;
+  @media only screen and (max-width: 767px) {
+    height: 200px;
     align-items: center;
     flex-direction: column-reverse;
   }
 }
 
 .title {
-   margin-bottom: 15px;
-   font-size: 32px;
-   font-weight: 700;
-   line-height: normal;
-   text-align: center;
-   color: $black;
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  color: $black;
+
+  @media only screen and (max-width: 1023px) {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 }
 
 .desc {
-    margin: 0 auto 31px;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 16.5px;
-    line-height: 26px;
-    text-align: center;
+  margin: 0 auto 31px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16.5px;
+  line-height: 26px;
+  text-align: center;
 
 }
 
@@ -58,11 +66,9 @@
   left: 50%;
   margin-left: -570px;
   margin-top: -175px;
-}
 
-@media only screen and (max-width: 1200px) {
-  .info {
-    position:relative;
+  @media only screen and (max-width: 1200px) {
+    position: relative;
     -ms-transform: none;
     transform: none;
     top: 0;
@@ -71,11 +77,9 @@
     max-width: 50%;
     margin: 0;
   }
-}
 
-@media only screen and (max-width: 767px) {
-  .info {
-    max-width:100%;
+  @media only screen and (max-width: 767px) {
+    max-width: 100%;
     font-size: 14px;
     line-height: 23px;
   }
@@ -97,11 +101,9 @@
   margin-bottom: 10px;
   line-height: 36px;
   text-align: center;
-}
 
-@media only screen and (max-width: 1200px) {
-  .driveInfoTlt {
-    text-align:center;
+  @media only screen and (max-width: 1200px) {
+    text-align: center;
     margin-bottom: 0;
   }
 }
@@ -114,17 +116,14 @@
   line-height: 23px;
   text-align: center;
   margin-bottom: 38px;
-}
 
-@media only screen and (max-width: 1200px) {
-  .infoDescr {
-    text-align:center;
+  @media only screen and (max-width: 1200px) {
+    text-align: center;
   }
-}
 
-@media only screen and (max-width: 767px) {
-  .infoDescr{
-    font-size:16.5px;
+
+  @media only screen and (max-width: 767px) {
+    font-size: 16.5px;
     line-height: 23px;
     margin-bottom: 12px;
   }
@@ -136,11 +135,9 @@
   line-height: 23px;
   text-align: center;
   margin-bottom: 10px;
-}
 
-@media only screen and (max-width: 1200px) {
-  .address {
-    font-size:16.5px;
+  @media only screen and (max-width: 1200px) {
+    font-size: 16.5px;
     text-align: center;
     margin-bottom: 14px;
   }
@@ -152,11 +149,9 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 23px;
-}
 
-@media only screen and (max-width: 1200px) {
-  .regim {
-    padding-left:30px;
+  @media only screen and (max-width: 1200px) {
+    padding-left: 30px;
     font-size: 16.5px;
   }
 }
@@ -175,17 +170,13 @@
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-}
 
-@media only screen and (max-width: 1200px) {
-  .cntact {
-    text-align:center;
+  @media only screen and (max-width: 1200px) {
+    text-align: center;
   }
-}
 
-@media only screen and (max-width: 767px) {
-  .contact {
-    margin-top:14px;
+  @media only screen and (max-width: 767px) {
+    margin-top: 14px;
   }
 }
 
@@ -197,12 +188,12 @@
 }
 
 .contactPhone a {
-  font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system
+  font-family: "Open Sans", "Proxima Nova Regular", Helvetica, sans-serif, serif, -apple-system
 }
 
 @media only screen and (max-width: 767px) {
   .contactPhone {
-    font-size:18px;
+    font-size: 18px;
   }
 }
 
@@ -211,16 +202,14 @@
 }
 
 .contactCallback {
- font-weight: 400;
- font-size: 14px;
- line-height: 23px;
- text-align: center;
- text-decoration-line: underline;
-}
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  text-decoration-line: underline;
 
-@media only screen and (max-width: 767px) {
-  .contactCallback {
-    margin-top:7px;
+  @media only screen and (max-width: 767px) {
+    margin-top: 7px;
     font-size: 14px;
     line-height: 23px;
   }

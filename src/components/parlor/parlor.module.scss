@@ -7,6 +7,12 @@
   background-size: cover;
   height: 600px;
   padding: 60px 0;
+
+  @media only screen and (max-width: 1023px) {
+    height: 100%;
+    padding: 0;
+  }
+
 }
 
 .container {
@@ -14,8 +20,17 @@
 }
 
 .mobImage {
+  background: url("../../assets/img/doctors/parlor.png"), linear-gradient(180deg, #FAFAFA 0%, #E0E0E0 100%);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  @media only screen and (max-width: 1023px) {
+    height: 310px;
+  }
 
 }
+
 .wrapper{
 
 }
@@ -26,6 +41,14 @@
   margin-right: -15px;
   margin-left: -15px;
 
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
+
 }
 
 .textBlock {
@@ -33,6 +56,14 @@
   border-radius: 2px;
   padding: 40px;
   color: #F5F5F5;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
 
 .title {
@@ -43,6 +74,16 @@
   font-size: 32px;
   line-height: 44px;
   margin-bottom: 32px;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+  }
 }
 
 .descr {
@@ -53,9 +94,18 @@
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 88px;
+
+  @media only screen and (max-width: 767px) {
+    margin-bottom: 44px;
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
 
 .button {
+
 }
 
 .btn {
@@ -73,4 +123,14 @@
   text-transform: uppercase;
   color: $white;
   padding: 10px 10px;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+    max-width: 100%;
+    line-height: 36px;
+  }
 }
+

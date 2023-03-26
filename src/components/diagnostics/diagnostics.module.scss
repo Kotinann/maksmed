@@ -3,6 +3,10 @@
 .diagnostics {
   padding-top: 88px;
 
+  @media only screen and (max-width: 767px) {
+    padding-top: 42px;
+  }
+
 }
 
 .container {
@@ -21,6 +25,15 @@
   text-align: center;
   color: $black;
 
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
 }
 
 .subtitle {
@@ -31,6 +44,16 @@
   color: #666666;
   margin-bottom: 48px;
 
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+    margin-top: 10px;
+    font-size: 16.5px;
+    margin-bottom: 10px
+  }
+
 }
 
 .block {
@@ -38,6 +61,15 @@
   padding-left: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  @media only screen and (max-width: 767px) {
+    display: block;
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
 
 .info {
@@ -45,6 +77,14 @@
   padding: 48px 70px;
   display: flex;
   flex-direction: column;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+    padding: 40px 30px;
+  }
 }
 
 
@@ -57,6 +97,15 @@
   line-height: 33px;
   color: #E9EFED;
   margin-bottom: 36px;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 .image {
@@ -64,6 +113,14 @@
 
   img {
     width: 100%;
+
+    @media only screen and (max-width: 767px) {
+      height: 50%;
+    }
+
+    @media only screen and (max-width: 1023px) {
+
+    }
   }
 }
 
@@ -72,12 +129,29 @@
   font-size: 16px;
   line-height: 26px;
   color: #E9EFED;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+    font-size: 14px;
+    line-height: 23px;
+  }
 }
 
 .items {
   list-style-type: square;
   margin-bottom: 15px;
   margin-left: 20px;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 
 }
 

@@ -2,6 +2,16 @@
 
 .documents {
   padding-top: 104px;
+
+
+  @media only screen and (max-width: 767px) {
+    padding-top: 64px;
+    padding-bottom: 104px;
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
 
 .container {
@@ -18,6 +28,14 @@
   text-align: center;
   color: $black;
   margin-bottom: 34px;
+
+  @media only screen and (max-width: 767px) {
+    font-size: 24px;
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
 
 .block{
@@ -26,7 +44,11 @@
   border-bottom: 1px solid #BBB;
   padding: 8px 0;
 
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
+
 
 .year {
    font-weight: 700;
@@ -34,6 +56,9 @@
    line-height: 26px;
    color: $green;
 
+  @media only screen and (max-width: 767px) {
+
+  }
 }
 
 .name a {
@@ -42,5 +67,9 @@
    line-height: 26px;
    color: #333333;
    padding-left: 18px;
+
+  @media only screen and (max-width: 767px) {
+
+  }
 }
 

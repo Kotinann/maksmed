@@ -7,21 +7,21 @@ export default function Banner() {
         <div className={styles.banner}>
             <div className="container">
                 <div className={styles.wrapper}>
-                    <div className={styles.bannerMobImg}>
+                    <div className={styles.mobImg}>
                     </div>
-                    <div className={styles.bannerRow}>
-                        <div className={styles.bannerTextBlock}>
-                            <div className={styles.bannerLogo}>
+                    <div className={styles.row}>
+                        <div className={styles.textBlock}>
+                            <div className={styles.logo}>
                                 <BannerIcon/>
                             </div>
-                            <div className={styles.bannerTitle}>
+                            <div className={styles.title}>
                                 Клиника мануальной терапии и массажа
                             </div>
-                            <div className={styles.bannerDescr}>
+                            <div className={styles.descr}>
                                 Основатель и главный врач — дипломированный мануальный терапевт Гаркин Максим. Стаж более 18 лет.
                             </div>
-                            <div className={styles.bannerButton}>
-                                <a className={styles.bannerButtonOpen} href="#">
+                            <div className={styles.button}>
+                                <a className={styles.buttonOpen} href="#">
                                     Заказать звонок
                                 </a>
                             </div>

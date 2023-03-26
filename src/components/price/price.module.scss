@@ -3,6 +3,14 @@
 .price {
   padding-top: 104px;
 
+  @media only screen and (max-width: 767px) {
+    padding-top: 40px;
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
+
 }
 
 .container {
@@ -20,6 +28,18 @@
   font-family: "Montserrat";
   font-weight: 800;
 
+  @media only screen and (max-width: 767px) {
+    font-size: 24px;
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
 
 }
 
@@ -33,10 +53,26 @@
   text-align: center;
   padding-bottom: 80px;
 
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
+
 }
 
 .priceWrap {
   padding-bottom: 48px;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
 
 .priceWrapTitle {
@@ -46,6 +82,14 @@
   text-align: left;
   color: $green;
   margin-bottom: 15px;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
 
 
@@ -55,6 +99,15 @@
   justify-content: space-between;
   border-top: 1px solid #BBB;
   padding: 20px 0;
+
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
 
 .priceName{
@@ -62,6 +115,17 @@
   font-size: 16.5px;
   line-height: 22px;
   color: #333;
+
+  @media only screen and (max-width: 767px) {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
 
 .pricePrice {
@@ -69,6 +133,16 @@
   font-size: 24px;
   line-height: 33px;
   color: $green;
+
+  @media only screen and (max-width: 767px) {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
 
 .priceBtn {
@@ -88,4 +162,12 @@
   line-height: 56px;
   margin: 0 auto;
   transition: all 0.3s ease-in-out;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
 }
