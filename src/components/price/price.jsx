@@ -29,7 +29,7 @@ export default function Price() {
                                 Мануальная терапия
                             </div>
                             <div className={styles.pricePrice}>
-                                2500 руб.
+                                2700 руб.
                             </div>
                         </div>
                         <div className={styles.priceBlock}>
@@ -37,7 +37,7 @@ export default function Price() {
                                 Мануальная терапия (Для детей до 14 лет)
                             </div>
                             <div className={styles.pricePrice}>
-                                1800 руб.
+                                2000 руб.
                             </div>
                         </div>
                     </div>
