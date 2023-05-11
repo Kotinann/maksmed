@@ -1,6 +1,6 @@
 @import 'src/styles/variables';
 
-.rewiews {
+.reviews {
   background-color: #FFFFFF;
   padding-top: 104px;
   padding-bottom: 104px;
@@ -39,15 +39,17 @@
 
 
 .reviewsWrap {
-  height: 304px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
   background: #BCD5D6;
   border-radius: 2px;
-  display: flex;
-  padding: 63px 90px;
+  padding: 40px 40px;
 
-  @media only screen and (max-width: 767px) {
-    padding: 40px 40px;
-
+  @media only screen and (min-width: 767px) {
+    padding: 63px 90px;
+    flex-direction: row;
   }
 
   @media only screen and (max-width: 1023px) {
@@ -61,15 +63,16 @@
   font-family: 'Merriweather';
   font-style: italic;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 28px;
+  line-height: 40px;
   display: flex;
   align-items: center;
   color: #293A34;
 
-  @media only screen and (max-width: 767px) {
-    font-size: 28px;
-    line-height: 40px;
+  @media only screen and (min-width: 768px) {
+    font-size: 32px;
+    line-height: 48px;
+    padding-right: 12px;
   }
 
   @media only screen and (max-width: 1023px) {
@@ -78,9 +81,8 @@
 }
 
 .reviewsImage {
+  flex-shrink: 0;
   position: relative;
-  bottom: 40px;
-  right: -160px;
 
   @media only screen and (max-width: 767px) {
 
@@ -95,11 +97,12 @@
 .imgWrap {
 
   img {
-    width: 100%;
-    max-width: 257px;
+    display: block;
+    width: 257px;
+    height: auto;
 
     @media only screen and (max-width: 767px) {
-      display: none;
+
     }
 
     @media only screen and (max-width: 1023px) {
@@ -110,7 +113,7 @@
 
 .name {
   position: absolute;
-  bottom: -80px;
+  bottom: 10px;
   left: -20px;
   color: $white;
   font-weight: 700;
@@ -142,16 +145,18 @@
   }
 }
 .all {
-  display: flex;
-  justify-content: space-between;
-  column-gap: 32px;
+  padding-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
 
-  @media only screen and (max-width: 767px) {
-    flex-direction: column;
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
   }
 
-  @media only screen and (max-width: 1023px) {
-
+  @media only screen and (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
 }

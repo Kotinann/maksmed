@@ -7,8 +7,7 @@ export default function Banner() {
         <div className={styles.banner}>
             <div className="container">
                 <div className={styles.wrapper}>
-                    <div className={styles.mobImg}>
-                    </div>
+                    <div className={styles.image}></div>
                     <div className={styles.row}>
                         <div className={styles.textBlock}>
                             <div className={styles.logo}>

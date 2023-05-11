@@ -1,41 +1,24 @@
 @import 'src/styles/variables';
 
 .card {
-  padding-top: 24px;
 
 }
-
-
-.container {
-
-}
-
-.wrapper {
-
-
-
-}
-
 
 .block {
   width: 100%;
-  max-width: 263px;
   background: #F5F5F5;
-  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
   overflow: hidden;
 
-  @media only screen and (max-width: 767px) {
-    max-width: 463px;
+  @media only screen and (min-width: 768px) {
+    height: 100%;
   }
 
-  @media only screen and (max-width: 1023px) {
-
+  @media only screen and (min-width: 1024px) {
+    max-width: 400px;
   }
 }
 

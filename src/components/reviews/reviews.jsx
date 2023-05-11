@@ -6,7 +6,7 @@ import reviewsData from "@/components/reviews/reviews-data";
 
 export default function Reviews() {
     return (
-        <div className={styles.rewiews}>
+        <div className={styles.reviews}>
             <div className="container">
                 <div className={styles.wrapper}>
                     <div className={styles.title}>
