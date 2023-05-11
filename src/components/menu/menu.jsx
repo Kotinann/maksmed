@@ -13,11 +13,6 @@ export default function Menu() {
                         <span></span>
                     </a>
                 </div>
-                <div className={styles.logo}>
-                    <a className={styles.logoLink} href="#">
-                        <LogoIcon/>
-                    </a>
-                </div>
                 <ul className={styles.list}>
                     <li className={styles.item}>
                         <a className={styles.link} href="#">

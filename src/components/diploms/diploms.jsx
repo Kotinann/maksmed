@@ -16,14 +16,6 @@ export default function Diploms() {
                             </div>
                         </div>
                     </div>
-                    <div className={styles.arrows}>
-                        <div className={styles.left}>
-                        </div>
-                        <div className={styles.right}>
-                        </div>
-                    </div>
-                    <div className={styles.dots}>
-                    </div>
                 </div>
             </div>
         </div>
