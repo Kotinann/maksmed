@@ -14,24 +14,15 @@ export default function Subs() {
                             И узнавайте первыми о скидках, акциях, интересных статьях от экспертов клиники
                         </div>
                     </div>
-                        {/*<div className={styles.form}>*/}
-                        {/*    <form className={styles.formForm} id="recSubForm" action="#">*/}
-                        {/*        <fieldset className={styles.formFields}>*/}
-                        {/*            <div className={styles.formGroup}>*/}
-                        {/*                <input className={styles.formControl} id="email" name="email" type="email"*/}
-                        {/*                       placeholder="e-mail" required/>*/}
-                        {/*            </div>*/}
-                        {/*            <input type="hidden" name="formTitle" value="Запись на консультацию">*/}
-                        {/*                <input type="hidden" name="go" value="recConsult"/>*/}
-                        {/*                <button className={styles.btn} type="submit">*/}
-                        {/*                    Записаться*/}
-                        {/*                </button>*/}
-                        {/*        </fieldset>*/}
-                        {/*        <div className={styles.formFooter}>*/}
-                        {/*            Действуем в соответствии с <a href="#">политикой конфиденциальности</a>*/}
-                        {/*        </div>*/}
-                        {/*    </form>*/}
-                        {/*</div>*/}
+                    <form className={styles.form}>
+                        <div>
+                            <input className={styles.email} id="email" type="text" placeholder="e-mail"/>
+                        </div>
+                        <button className={styles.btn}><a>Подписаться</a></button>
+                        <div className={styles.footer}>
+                            Мы никому не передадим ваш e-mail
+                           </div>
+                    </form>
                 </div>
             </div>
         </div>

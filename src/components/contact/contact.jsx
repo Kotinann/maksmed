@@ -11,7 +11,7 @@ export default function Contact() {
       </div>
       <div className={styles.map}>
         <div className={styles.info}>
-          <div className={styles.infoTlt}>«Максмед»</div>
+          <div className={styles.infoTlt}>«МАКСМЕД»</div>
           <div className={styles.infoDescr}>Клиника мануальной терапии Гаркина Максима</div>
           <address className={styles.address}>г.Самара, ул.Ново-Садовая 252</address>
           <div className={styles.regim}>
