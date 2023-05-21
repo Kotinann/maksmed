@@ -16,11 +16,14 @@ export default function Consultation() {
                             на удобное время.
                         </p>
                         <form className={styles.form}>
-
+                            <div>
+                                <input className={styles.phone} id="phone" type="tel" placeholder="телефон"/>
+                            </div>
+                            <button className={styles.btn}><a>записаться</a></button>
+                            <div className={styles.footer}>
+                                Действуем в соответствии с <a>политикой конфиденциальности</a>
+                            </div>
                         </form>
-                        <p className={styles.footer}>
-                            Действуем в соответствии с <a>политикой конфиденциальности</a>
-                        </p>
                     </div>
                 </div>
         </div>
