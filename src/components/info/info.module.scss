@@ -41,15 +41,18 @@
   align-items: flex-start;
   justify-content: center;
   column-gap: 32px;
-  row-gap: 48px;
+  row-gap: 24px;
   margin-bottom: 48px;
+
+  &:last-child {
+    .image {
+      order: 2;
+    }
+  }
 
   @media only screen and (min-width: 768px) {
     flex-direction: row;
-  }
-
-  @media only screen and (max-width: 1023px) {
-
+    row-gap: 48px;
   }
 }
 
@@ -105,6 +108,11 @@
 }
 
 .image {
+  width: 100%;
+
+  @media only screen and (min-width: 768px) {
+    max-width: 360px;
+  }
 
   img {
     display: block;
