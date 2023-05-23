@@ -53,6 +53,12 @@
   @media only screen and (min-width: 768px) {
     flex-direction: row;
     row-gap: 48px;
+
+    &:last-child {
+      .image {
+        order: 0;
+      }
+    }
   }
 }
 
