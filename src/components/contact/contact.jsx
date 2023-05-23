@@ -19,9 +19,7 @@ export default function Contact() {
               <div className={styles.hour}><b>09:00~20:00</b></div>
           </div>
           <div className={styles.contact}>
-            <div className={styles.contactPhone}><a href="tel:+79272602065">(927) 260-20-65</a></div>
-            <div className={styles.contactCallback}><a className="popup-form open-modal" href="#callback"
-                                                            data-modal-id="callback">Заказать звонок</a></div>
+            <div className={styles.contactPhone}><a href="tel:+79272602065">+7 (927) 260-20-65</a></div>
           </div>
         </div>
         <div className={styles.map}>
