@@ -9,7 +9,7 @@ export default function Consultation() {
     return (
         <div className={clsx(
             styles.overlay,
-            modalActive && styles.active
+            modalActive && styles.overlayActive
             )}>
             <div className={styles.consultation}>
                 <div
