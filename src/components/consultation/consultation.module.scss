@@ -8,10 +8,14 @@
   left: 0;
   background: rgba(0,0,0,0.5);
   z-index: 100;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   overflow-y: auto;
+}
+
+.active {
+  display: flex;
 }
 
 .consultation {
@@ -21,6 +25,10 @@
   width: 750px;
   max-width: 90%;
   min-height: 300px;
+
+  @media only screen and (max-width: 767px) {
+      padding: 40px 15px 30px;
+  }
 }
 
 .close {
@@ -119,5 +127,8 @@
   font-size: 12px;
   line-height: 20px;
   text-align: center;
-  white-space: nowrap;
+
+  a {
+    color: $font-green;
+  }
 }
