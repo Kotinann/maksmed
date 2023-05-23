@@ -2,7 +2,7 @@ import styles from './banner.module.scss'
 import BannerIcon from "../../assets/icons/banner-icon.svg"
 
 
-export default function Banner() {
+export default function Banner({setModalActive}) {
     return (
         <div className={styles.banner}>
             <div className="container">
@@ -20,9 +20,12 @@ export default function Banner() {
                                 Основатель и главный врач — дипломированный мануальный терапевт Гаркин Максим. Стаж более 18 лет.
                             </div>
                             <div className={styles.button}>
-                                <a className={styles.buttonOpen} href="#">
+                                <button
+                                  className={styles.buttonOpen}
+                                  onClick={() => setModalActive(true)}
+                                >
                                     Заказать звонок
-                                </a>
+                                </button>
                             </div>
                         </div>
                     </div>

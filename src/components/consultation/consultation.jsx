@@ -1,20 +1,16 @@
 import styles from './consultation.module.scss'
 import { clsx } from 'clsx';
-import {useState} from "react";
 
-export default function Consultation() {
-    
-    const [modalActive, setModalActive] = useState(true)
-    console.log(modalActive)
+export default function Consultation({openModal, setOpenModal}) {
     return (
         <div className={clsx(
             styles.overlay,
-            modalActive && styles.overlayActive
+            openModal && styles.overlayActive
             )}>
             <div className={styles.consultation}>
                 <div
                   className={styles.close}
-                  onClick={() => setModalActive(!modalActive)}
+                  onClick={() => setOpenModal(!openModal)}
                 />
                 <h2 className={styles.title}>
                     Запланировать визит
