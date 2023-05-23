@@ -9,7 +9,7 @@ export default function Contact() {
           5 минут до ближайшей остановки автобуса или трамвая.
         </p>
       </div>
-      <div className={styles.map}>
+      <div className={styles.mapWrap}>
         <div className={styles.info}>
           <div className={styles.infoTlt}>«МАКСМЕД»</div>
           <div className={styles.infoDescr}>Клиника мануальной терапии Гаркина Максима</div>
