@@ -25,58 +25,48 @@
 }
 
 .slider {
-  overflow: hidden;
   position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.list {
-  display: flex;
-  height: 100%;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
 }
 
 .slide {
-  flex: 1 0 100%;
-  position: relative;
+  opacity: 0;
+  transition-duration: 1s ease;
 }
 
-.img {
-  display: flex;
-  margin: 0 auto;
-  max-height: 300px;
-  width: 100%;
-  object-fit: contain;
-}
-
-
-.arrows {
-  color: $white;
-  display: flex;
-  font-size: 30px;
-  justify-content: space-between;
-  height: 100%;
-  position: absolute;
-  top: 30%;
-  width: 100%;
-  z-index: 1;
-}
-
-.left {
-  background-image: url("../../assets/img/diploms/ArrowLeft.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-left: 5px;
-  transform: rotate(180deg);
-}
-
-.right {
-  background-image: url("../../assets/img/diploms/ArrowRight.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-right: 5px;
-}
-
-.dots {
-
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
 }
