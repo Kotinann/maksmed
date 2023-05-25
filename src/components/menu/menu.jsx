@@ -15,32 +15,32 @@ export default function Menu() {
                 </div>
                 <ul className={styles.list}>
                     <li className={styles.item}>
-                        <a className={styles.link} href="#">
+                        <a className={styles.link} href="#info">
                             О клинике
                         </a>
                     </li>
                     <li className={styles.item}>
-                        <a className={styles.link} href="#">
+                        <a className={styles.link} href="#price">
                             Цены
                         </a>
                     </li>
                     <li className={styles.item}>
-                        <a className={styles.link} href="#">
+                        <a className={styles.link} href="#reviews">
                             Отзывы
                         </a>
                     </li>
                     <li className={styles.item}>
-                        <a className={styles.link} href="#">
+                        <a className={styles.link} href="#diploms">
                             Дипломы
                         </a>
                     </li>
                     <li className={styles.item}>
-                        <a className={styles.link} href="#">
+                        <a className={styles.link} href="#documents">
                             Документы
                         </a>
                     </li>
                     <li className={styles.item}>
-                        <a className={styles.link} href="#">
+                        <a className={styles.link} href="#contact">
                             Контакты
                         </a>
                     </li>

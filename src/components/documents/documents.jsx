@@ -2,7 +2,7 @@ import styles from "./documents.module.scss"
 
 export default function Documents() {
     return (
-        <div className={styles.documents}>
+        <div className={styles.documents} id="documents">
             <div className="container">
                 <div className={styles.wrapper}>
                     <div className={styles.title}>

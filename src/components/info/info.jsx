@@ -5,7 +5,7 @@ import infoPatient from "../../assets/img/doctors/infoPatient.png"
 
 export default function Info() {
     return (
-        <div className={styles.info}>
+        <div className={styles.info} id="info">
             <div className="container">
                 <div className={styles.wrapper}>
                     <h2 className={styles.title}>

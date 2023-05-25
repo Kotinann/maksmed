@@ -19,7 +19,7 @@ import { Navigation } from "swiper";
 
 export default function Diploms() {
     return (
-        <div className={styles.diploms}>
+        <div className={styles.diploms} id="diploms">
             <div className="container">
                 <div className={styles.wrapper}>
                     <h2 className={styles.title}>

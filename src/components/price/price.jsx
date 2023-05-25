@@ -2,7 +2,7 @@ import styles from "./price.module.scss"
 
 export default function Price() {
     return (
-        <div className={styles.price}>
+        <div className={styles.price} id="price">
             <div className="container">
                 <div className={styles.wrapper}>
                     <div className={styles.priceTitle}>
