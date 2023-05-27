@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Header from "@/components/header/header";
 import Menu from "@/components/menu/menu";
+import Mobile from "@/components/menu/mobile-menu/mobile";
 import Banner from "@/components/banner/banner";
 import Consultation from "@/components/consultation/consultation";
 import Info from "@/components/info/info";
@@ -32,6 +33,7 @@ export default function Home() {
       <main>
         <Header />
           <Menu />
+          <Mobile />
           <Banner setModalActive={setModalActive} />
           <Consultation openModal={modalActive} setOpenModal={setModalActive} />
           <Info />

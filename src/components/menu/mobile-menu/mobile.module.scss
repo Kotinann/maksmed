@@ -1,0 +1,120 @@
+@import 'src/styles/variables';
+
+.burger {
+  display: none;
+
+  @media only screen and (max-width: 767px) {
+    display: block;
+  }
+}
+
+.hamburger {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  position: relative;
+  outline: none;
+  transition: transform 0.3s ease;
+  justify-content: space-between;
+  padding: 3px 0;
+  height: 24px;
+  width: 24px;
+  z-index: 10;
+
+  &::before, &::after, > span {
+    background: $green;
+    content: "";
+    display: block;
+    transition: transform 0.3s ease;
+    height: 2px;
+    width: 20px;
+  }
+  .show & {
+    transition: transform 0.3s ease;
+
+    span {
+      left: -50px;
+      opacity: 0;
+    }
+
+    &::before, &::after {
+      top: 50%;
+      position: absolute;
+    }
+
+    &::after {
+      transform: rotate(-45deg);
+    }
+
+    &::before {
+      transform: rotate(45deg);
+    }
+  }
+}
+
+
+.mob{
+  display: block;
+  z-index: 9999;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+  transform: none;
+  transition: .3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.nav {
+
+
+}
+
+.list {
+  font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.item {
+  height: 100%;
+  width: 100%;
+  line-height: 1.5;
+  margin-bottom: 20px;
+
+  &:first-child a{
+    color: $font-green;
+  }
+}
+
+.link {
+  display: block;
+  color: $black;
+  height: 100%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $font-green;
+    text-decoration: none;
+  }
+
+  &_active {
+    color: $font-green;
+  }
+
+}
+.social {
+  padding: 20px;
+  justify-content: center;
+
+  a {
+    color: #293A34;
+  }
+}
+
+

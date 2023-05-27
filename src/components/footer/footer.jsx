@@ -55,10 +55,10 @@ export default function Footer() {
                             </div>
                             <div className={styles.footerSocial}>
                                 <div className={styles.social}>
-                                    <a href="#" className={styles.vkIcon}>
+                                    <a href="https://m.vk.com/maksmedclinic"  target="_blank"  className={styles.vkIcon}>
                                         <VkIcon/>
                                     </a>
-                                    <a href="#" className={styles.instIcon}>
+                                    <a href="https://www.instagram.com/maksgarkin/" target="_blank" className={styles.instIcon}>
                                         <InstIcon/>
                                     </a>
                                 </div>

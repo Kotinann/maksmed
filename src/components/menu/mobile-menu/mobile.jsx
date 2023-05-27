@@ -1,14 +1,16 @@
-import styles from './menu.module.scss'
-import LogoIcon from "../../assets/icons/logo.svg"
+import styles from './mobile.module.scss'
 import VkIcon from "@/assets/icons/vk.svg";
 import InstIcon from "@/assets/icons/inst.svg";
-import Mobile from "@/components/menu/mobile-menu/mobile";
 
-
-export default function Menu() {
+export default function Mobile() {
     return (
-        <nav className={styles.menu}>
-            <div className={styles.container}>
+        <div className={styles.mob}>
+            <div className={styles.burger}>
+                <a className={styles.hamburger} href="#">
+                    <span></span>
+                </a>
+            </div>
+            <nav className={styles.nav}>
                 <ul className={styles.list}>
                     <li className={styles.item}>
                         <a className={styles.link} href="#info">
@@ -41,7 +43,12 @@ export default function Menu() {
                         </a>
                     </li>
                 </ul>
+            </nav>
+            <div className={styles.social}>
+                <a href="#" className={styles.vkIcon}>
+                    <VkIcon/>
+                </a>
             </div>
-        </nav>
+        </div>
     )
 }
