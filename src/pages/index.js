@@ -16,6 +16,7 @@ import Parlor from "@/components/parlor/parlor";
 import Documents from "@/components/documents/documents";
 import Contact from "@/components/contact/contact";
 import Footer from "@/components/footer/footer";
+import Policy from "@/components/policy/policy";
 import {useState} from "react";
 
 const inter = Inter({ subsets: ['latin'] })
@@ -46,7 +47,7 @@ export default function Home() {
         <Reviews />
         <Diploms />
         <Subs />
-        <Parlor />
+        <Parlor setModalActive={setModalActive} />
         <Documents />
         <Contact />
         <Footer />

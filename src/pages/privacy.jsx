@@ -4,6 +4,7 @@ import Menu from "@/components/menu/menu";
 import Mobile from "@/components/menu/mobile-menu/mobile";
 import Footer from "@/components/footer/footer";
 import {useState} from "react";
+import Policy from "@/components/policy/policy";
 
 
 export default function Privacy() {
@@ -22,7 +23,7 @@ export default function Privacy() {
         {
           mobileActive && <Mobile setMobileActive={setMobileActive} />
         }
-        <h1>сюда секцию Политика конфиденциальности</h1>
+        <h1><Policy /></h1>
         <Footer />
       </main>
     </>

@@ -1,6 +1,6 @@
 import styles from "./parlor.module.scss"
 
-export default function Parlor() {
+export default function Parlor({setModalActive}) {
     return (
         <div className={styles.parlor}>
             <div className="container">
@@ -16,8 +16,8 @@ export default function Parlor() {
                                 Интерьер — это залог правильного психологического настроя. Мы постарались создать
                                 удобное, красивое и уютное окружение, чтобы вам было легко настроиться на лечение
                             </div>
-                            <div className={styles.button}>
-                                <a href="#" className={styles.btn}>
+                            <div className={styles.button} >
+                                <a href="#" className={styles.btn} onClick={() => setModalActive(true)}>
                                     записаться
                                 </a>
                             </div>
