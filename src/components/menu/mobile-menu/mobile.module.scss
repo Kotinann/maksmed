@@ -49,6 +49,7 @@
 
     &::before {
       transform: rotate(45deg);
+
     }
   }
 }
@@ -109,12 +110,7 @@
 
 }
 .social {
-  padding: 20px;
-  justify-content: center;
 
-  a {
-    color: #293A34;
-  }
 }
 
 .vkIcon {
@@ -125,5 +121,29 @@
     color: #016d7d;
   }
 }
+
+.contactInfoItem {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+
+.contactInfoIcon {
+  margin-right: 8px;
+}
+
+.contactInfoText {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfoDay {
+
+}
+
+.contactInfoHour {
+}
+
 
 

@@ -55,3 +55,37 @@
   transition: all 0.3s ease;
 }
 
+.contactInfo {
+  display: flex;
+  gap: 32px;
+}
+
+.contactInfoItem {
+  display: none;
+  align-items: center;
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.contactInfoIcon {
+  margin-right: 8px;
+}
+
+.contactInfoText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: $font-gray;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.contactInfoDay {
+  margin-right: 4px;
+}
+
+.contactInfoHour {
+}

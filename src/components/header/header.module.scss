@@ -80,7 +80,6 @@
 }
 
 .contactInfoHour {
-
 }
 
 
@@ -136,7 +135,8 @@
   height: 2px;
   background-color: #016d7d;
   margin-bottom: 5px;
-  transition: all 0.3s ease;
+  transition: color 0.2s ease-in-out;
+  animation: 0.5s slideIn forwards;
 
   &:last-child {
       margin-bottom: 0;
