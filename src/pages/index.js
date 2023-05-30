@@ -22,6 +22,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [modalActive, setModalActive] = useState(false);
+  const [mobileActive, setMobileActive] = useState(false);
+  
   return (
     <>
       <Head>
@@ -31,21 +33,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header />
-          <Menu />
-          <Mobile />
-          <Banner setModalActive={setModalActive} />
-          <Consultation openModal={modalActive} setOpenModal={setModalActive} />
-          <Info />
-          <Price />
-          <Diagnostics />
-          <Reviews />
-          <Diploms />
-          <Subs />
-          <Parlor />
-          <Documents />
-          <Contact />
-          <Footer />
+        <Header setMobileActive={setMobileActive} mobileActive={mobileActive} />
+        <Menu />
+        {
+          mobileActive && <Mobile setMobileActive={setMobileActive} />
+        }
+        <Banner setModalActive={setModalActive} />
+        <Consultation openModal={modalActive} setOpenModal={setModalActive} />
+        <Info />
+        <Price />
+        <Diagnostics />
+        <Reviews />
+        <Diploms />
+        <Subs />
+        <Parlor />
+        <Documents />
+        <Contact />
+        <Footer />
       </main>
     </>
   )

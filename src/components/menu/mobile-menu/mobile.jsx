@@ -5,11 +5,6 @@ import InstIcon from "@/assets/icons/inst.svg";
 export default function Mobile() {
     return (
         <div className={styles.mob}>
-            <div className={styles.burger}>
-                <a className={styles.hamburger} href="#">
-                    <span></span>
-                </a>
-            </div>
             <nav className={styles.nav}>
                 <ul className={styles.list}>
                     <li className={styles.item}>

@@ -6,15 +6,10 @@
   padding-bottom: 15px;
   position: relative;
   background-color: #ffffff;
-
-  @media only screen and (max-width: 767px) {
-      display: none;
-    }
 }
 
 .container {
   position: relative;
-
 }
 
 
@@ -25,12 +20,25 @@
 }
 
 .logo {
-  margin-right: 86px;
-
+  margin-right: 30px;
+  @media only screen and (min-width: 1024px) {
+    margin-right: 86px;
+  }
 }
 
 .logoLink {
   display: block;
+  width: 150px;
+
+  @media only screen and (min-width: 1024px) {
+    width: 250px;
+  }
+
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .right {
@@ -45,8 +53,12 @@
 }
 
 .contactInfoItem {
-  display: flex;
+  display: none;
   align-items: center;
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .contactInfoIcon {
@@ -56,6 +68,7 @@
 .contactInfoText {
   display: flex;
   align-items: center;
+  flex-direction: column;
   color: $font-gray;
   font-size: 13px;
   font-weight: 600;
@@ -82,15 +95,82 @@
 
 .phoneCode {
   color: #BBB;
-  font-size: 18px;
+  font-size: 14px;
   margin-right: 6px;
   line-height: 1;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 18px;
+  }
 }
 
 
 .phoneNumber {
   color: #333;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 0.8;
 
+  @media only screen and (min-width: 768px) {
+    font-size: 28px;
+  }
+
+}
+
+.hamburger {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  z-index: 20;
+  border: 0;
+  background-color: #FFFFFF;
+
+  @media only screen and (min-width: 768px) {
+      display: none;
+  }
+}
+
+.hamburgerLine {
+  width: 30px;
+  height: 2px;
+  background-color: #016d7d;
+  margin-bottom: 5px;
+  transition: all 0.3s ease;
+
+  &:last-child {
+      margin-bottom: 0;
+  }
+}
+
+.close {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  z-index: 20;
+  border: 0;
+  background-color: #FFFFFF;
+
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.closeLine {
+  width: 24px;
+  height: 2px;
+  background-color: #016d7d;
+  margin-bottom: 5px;
+  transition: all 0.3s ease;
+
+  &:first-child {
+    transform: rotate(45deg) translate(0, 5px);
+  }
+
+  &:last-child {
+    transform: rotate(-45deg) translate(0, -5px);
+    margin-bottom: 0;
+  }
 }

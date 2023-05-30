@@ -1,6 +1,7 @@
 import styles from './footer.module.scss'
 import VkIcon from "../../assets/icons/vk.svg";
 import InstIcon from "../../assets/icons/inst.svg";
+import Privacy from "@/pages/privacy";
 
 export default function Footer() {
     return (
@@ -41,7 +42,7 @@ export default function Footer() {
                                     </a>
                                 </li>
                                 <li className={styles.items}>
-                                    <a href="#" className={styles.link}>
+                                    <a href="/privacy" className={styles.link}>
                                         Политика конфиденциальности
                                     </a>
                                 </li>

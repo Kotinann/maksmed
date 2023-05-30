@@ -3,7 +3,7 @@ import LogoIcon from "../../assets/icons/logo.svg"
 import PlaceIcon from "../../assets/icons/place-localizer.svg"
 import ClockIcon from "../../assets/icons/clock.svg"
 
-export default function Header() {
+export default function Header({ setMobileActive, mobileActive }) {
     return (
         <div className={styles.header}>
             <div className="container">
@@ -23,17 +23,38 @@ export default function Header() {
                             </div>
                             <div className={styles.contactInfoItem}>
                                 <div className={styles.contactInfoIcon}>
-                                        <ClockIcon />
+                                    <ClockIcon />
                                 </div>
                                 <div className={styles.contactInfoText}>
-                                        <div className={styles.contactInfoDay}>ПН, СР, ПТ: </div>
-                                        <div className={styles.contactInfoHour}>09:00~20:00</div>
+                                    <div className={styles.contactInfoDay}>ПН, СР, ПТ: </div>
+                                    <div className={styles.contactInfoHour}>09:00~20:00</div>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.phone}><span
-                            className={styles.phoneCode}>(927)</span><span
-                            className={styles.phoneNumber}>260-20-65</span></div>
+                        <div className={styles.phone}>
+                            <span className={styles.phoneCode}>(927)</span>
+                            <span className={styles.phoneNumber}>260-20-65</span>
+                        </div>
+                        {
+                            mobileActive ? (
+                              <button
+                                className={styles.close}
+                                onClick={() => setMobileActive(!mobileActive)}
+                              >
+                                  <div className={styles.closeLine}></div>
+                                  <div className={styles.closeLine}></div>
+                              </button>
+                            ) : (
+                              <button
+                                className={styles.hamburger}
+                                onClick={() => setMobileActive(!mobileActive)}
+                              >
+                                  <div className={styles.hamburgerLine}></div>
+                                  <div className={styles.hamburgerLine}></div>
+                                  <div className={styles.hamburgerLine}></div>
+                              </button>
+                            )
+                        }
                     </div>
                 </div>
             </div>
