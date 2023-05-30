@@ -17,27 +17,27 @@ export default function Footer() {
                                     </a>
                                 </li>
                                 <li className={styles.items}>
-                                    <a href="#" className={styles.link}>
+                                    <a href="#info" className={styles.link}>
                                         О клинике
                                     </a>
                                 </li>
                                 <li className={styles.items}>
-                                    <a href="#" className={styles.link}>
+                                    <a href="#price" className={styles.link}>
                                         Цены
                                     </a>
                                 </li>
                                 <li className={styles.items}>
-                                    <a href="#" className={styles.link}>
+                                    <a href="#reviews" className={styles.link}>
                                         Отзывы
                                     </a>
                                 </li>
                                 <li className={styles.items}>
-                                    <a href="#" className={styles.link}>
+                                    <a href="#diploms" className={styles.link}>
                                         Дипломы и сертификаты
                                     </a>
                                 </li>
                                 <li className={styles.items}>
-                                    <a href="#" className={styles.link}>
+                                    <a href="#documents" className={styles.link}>
                                         Документы
                                     </a>
                                 </li>
@@ -77,7 +77,7 @@ export default function Footer() {
                                 для
                                 сбора технических данных касательно посетителей с целью получения маркетинговой и
                                 статистической информации. Условия обработки данных посетителей сайта см. в <a
-                              href="/privacy.jsx">Политике конфиденциальности</a>. Нажимая кнопку «ОК», вы
+                              href="/privacy">Политике конфиденциальности</a>. Нажимая кнопку «ОК», вы
                                 подтверждаете ваше согласие на обработку данных на указанных выше условиях.
                             </p>
                         </div>

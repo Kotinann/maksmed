@@ -15,7 +15,7 @@ export default function Privacy() {
         <title>«МАКСМЕД» - Клиника мануальной терапии и массажа Гаркина Максима</title>
         <meta name="description" content="КЛИНИКА МАНУАЛЬНОЙ ТЕРАПИИ И МАССАЖА" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.icon" />
       </Head>
       <main>
         <Header setMobileActive={setMobileActive} mobileActive={mobileActive} />
