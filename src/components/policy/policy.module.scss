@@ -1,10 +1,12 @@
 @import 'src/styles/variables';
 
 .policy {
+  padding-top: 64px;
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  background: $white;
 
 }
 
@@ -37,21 +39,25 @@
 }
 
   p {
-    font-size: 16.5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 26px;
-    font-family: "Open Sans","Proxima Nova Regular",Helvetica,sans-serif,serif,-apple-system;
-    color: #333;
+    color: #666666;
     margin-bottom: 25px;
     width: 100%;
   }
 
   ul {
-    font-size: 16.5px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
     line-height: 26px;
     list-style-type: disc;
     padding-left: 20px;
-    margin-bottom: 20px;
-    color: #333;
+    margin-bottom: 25px;
+    color: #666666;
   }
 
 }
