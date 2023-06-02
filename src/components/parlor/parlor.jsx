@@ -16,7 +16,7 @@ export default function Parlor({setModalActive}) {
                                 Интерьер — это залог правильного психологического настроя. Мы постарались создать
                                 удобное, красивое и уютное окружение, чтобы вам было легко настроиться на лечение
                             </div>
-                            <div className={styles.button} >
+                            <div className={styles.button}>
                                 <a href="#" className={styles.btn} onClick={() => setModalActive(true)}>
                                     записаться
                                 </a>

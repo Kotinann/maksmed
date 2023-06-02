@@ -26,7 +26,7 @@ export default function Consultation({openModal, setOpenModal}) {
                         </div>
                         <button className={styles.btn}><a>записаться</a></button>
                         <div className={styles.footer}>
-                            Действуем в соответствии с <a href="/privacy">политикой конфиденциальности</a>
+                            Действуем в соответствии с <a href="/privacy" target="_blank">политикой конфиденциальности</a>
                         </div>
                     </form>
                 </div>

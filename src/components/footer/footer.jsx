@@ -42,7 +42,7 @@ export default function Footer() {
                                     </a>
                                 </li>
                                 <li className={styles.items}>
-                                    <a href="/privacy" className={styles.link}>
+                                    <a href="/privacy"  target="_blank" className={styles.link}>
                                         Политика конфиденциальности
                                     </a>
                                 </li>
@@ -77,7 +77,7 @@ export default function Footer() {
                                 для
                                 сбора технических данных касательно посетителей с целью получения маркетинговой и
                                 статистической информации. Условия обработки данных посетителей сайта см. в <a
-                              href="/privacy">Политике конфиденциальности</a>. Нажимая кнопку «ОК», вы
+                              href="/privacy"  target="_blank">Политике конфиденциальности</a>. Нажимая кнопку «ОК», вы
                                 подтверждаете ваше согласие на обработку данных на указанных выше условиях.
                             </p>
                         </div>

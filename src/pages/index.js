@@ -34,7 +34,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header setMobileActive={setMobileActive} mobileActive={mobileActive} />
+        <Header setMobileActive={setMobileActive} mobileActive={mobileActive} setModalActive={setModalActive}/>
         <Menu />
         {
           mobileActive && <Mobile setMobileActive={setMobileActive} />

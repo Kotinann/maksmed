@@ -2,12 +2,33 @@ import styles from './header.module.scss'
 import LogoIcon from "../../assets/icons/logo.svg"
 import PlaceIcon from "../../assets/icons/place-localizer.svg"
 import ClockIcon from "../../assets/icons/clock.svg"
+import PhoneIcon from "../../assets/icons/phone.svg"
 
-export default function Header({ setMobileActive, mobileActive }) {
+export default function Header({ setMobileActive, mobileActive, setModalActive={setModalActive}}) {
     return (
         <div className={styles.header}>
             <div className="container">
                 <div className={styles.wrapper}>
+                    {
+                        mobileActive ? (
+                            <button
+                                className={styles.close}
+                                onClick={() => setMobileActive(!mobileActive)}
+                            >
+                                <div className={styles.closeLine}></div>
+                                <div className={styles.closeLine}></div>
+                            </button>
+                        ) : (
+                            <button
+                                className={styles.hamburger}
+                                onClick={() => setMobileActive(!mobileActive)}
+                            >
+                                <div className={styles.hamburgerLine}></div>
+                                <div className={styles.hamburgerLine}></div>
+                                <div className={styles.hamburgerLine}></div>
+                            </button>
+                        )
+                    }
                     <div className={styles.logo}>
                         <a className={styles.logoLink} href="#">
                             <LogoIcon />
@@ -31,30 +52,17 @@ export default function Header({ setMobileActive, mobileActive }) {
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.phone}>
+                        <a href="tel:+79272602065" className={styles.phoneIcon}>
+                            <PhoneIcon />
+                        </a>
+                        <div className={styles.phoneBlock}>
+                            <a className={styles.callback} onClick={() => setModalActive(true)} href="#callback">
+                                Заказать звонок
+                            </a>
                             <span className={styles.phoneCode}>(927)</span>
                             <span className={styles.phoneNumber}>260-20-65</span>
                         </div>
-                        {
-                            mobileActive ? (
-                              <button
-                                className={styles.close}
-                                onClick={() => setMobileActive(!mobileActive)}
-                              >
-                                  <div className={styles.closeLine}></div>
-                                  <div className={styles.closeLine}></div>
-                              </button>
-                            ) : (
-                              <button
-                                className={styles.hamburger}
-                                onClick={() => setMobileActive(!mobileActive)}
-                              >
-                                  <div className={styles.hamburgerLine}></div>
-                                  <div className={styles.hamburgerLine}></div>
-                                  <div className={styles.hamburgerLine}></div>
-                              </button>
-                            )
-                        }
+
                     </div>
                 </div>
             </div>
