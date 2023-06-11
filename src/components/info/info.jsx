@@ -1,7 +1,7 @@
 import styles from "./info.module.scss"
 import Image from "next/image";
-import infoDoc from "../../assets/img/doctors/infoDoc2.png"
-import infoPatient from "../../assets/img/doctors/infoPatient.png"
+import infoDoc from "../../assets/img/doctors/Doc.png"
+import infoPatient from "../../assets/img/doctors/patient.jpg"
 
 export default function Info() {
     return (
@@ -18,7 +18,7 @@ export default function Info() {
                             </h3>
                             <div className={styles.text}>
                                 <p>
-                                    Меня зовут Гаркин Максим Михайлович. Я врач мануальный терапевт. Стаж 18 лет. В
+                                    Меня зовут Гаркин Максим Михайлович. Я врач мануальный терапевт. Стаж 17 лет. В
                                     студенчестве
                                     занимался лечебным массажем, после окончания ВУЗа год работал травматологом, потом
                                     мануальным терапевтом.

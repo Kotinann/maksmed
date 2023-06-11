@@ -1,7 +1,7 @@
 import styles from "./diagnostics.module.scss"
 import Image from "next/image";
-import diagnosticsPath from "@/assets/img/doctors/diagnosticsPath.jpg";
-import diagnocticsProblems from "@/assets/img/doctors/diagnocticsProblems.png";
+import diagnosticsPath from "@/assets/img/doctors/Path.jpg";
+import diagnocticsProblems from "@/assets/img/doctors/Problems.png";
 
 export default function Diagnostics() {
     return (

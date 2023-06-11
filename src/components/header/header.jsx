@@ -5,7 +5,7 @@ import ClockIcon from "../../assets/icons/clock.svg"
 import PhoneIcon from "../../assets/icons/phone.svg"
 import Link from "next/link";
 
-export default function Header({ setMobileActive, mobileActive}) {
+export default function Header({ setMobileActive, mobileActive, setModalActive}) {
     return (
         <div className={styles.header}>
             <div className="container">
