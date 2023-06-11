@@ -24,16 +24,17 @@
 
   @media only screen and (min-width: 1024px) {
     margin-right: 86px;
+
   }
 }
 
 .logoLink {
   display: block;
-  width: 150px;
+  width: 250px;
 
-  @media only screen and (min-width: 1024px) {
-    width: 250px;
 
+  @media only screen and (max-width: 768px) {
+    width: 150px;
   }
 
   svg {
@@ -47,7 +48,6 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-
 }
 
 .contactInfo {

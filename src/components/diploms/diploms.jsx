@@ -5,6 +5,7 @@ import Diplom3 from "../../assets/img/diploms/diplom3.jpg";
 import Diplom4 from "../../assets/img/diploms/diplom4.jpg";
 import Diplom5 from "../../assets/img/diploms/diplom5.jpg";
 import Diplom6 from "../../assets/img/diploms/diplom6.jpg";
+import Diplom7 from "../../assets/img/diploms/diplom7.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -56,6 +57,7 @@ export default function Diploms() {
                             <SwiperSlide><Image src={Diplom4} alt="диплом"/></SwiperSlide>
                             <SwiperSlide><Image src={Diplom5} alt="диплом"/></SwiperSlide>
                             <SwiperSlide><Image src={Diplom6} alt="диплом"/></SwiperSlide>
+                            <SwiperSlide><Image src={Diplom7} alt="диплом"/></SwiperSlide>
                         </Swiper>
                     </div>
                 </div>
