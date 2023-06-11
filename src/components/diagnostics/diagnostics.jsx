@@ -36,6 +36,15 @@ export default function Diagnostics() {
                                 <li className={styles.items}>
                                     Повышенное артериальное давление.
                                 </li>
+                                <li className={styles.items}>
+                                    Протрузии, экструзии, грыжи межпозвоночных дисков.
+                            </li>
+                                <li className={styles.items}>
+                                    Восстановительный период после травм опорно-двигательной системы.
+                                </li>
+                                <li className={styles.items}>
+                                Ишиас (защемление седалищного нерва).
+                            </li>
                             </ul>
                         </div>
                     </div>
