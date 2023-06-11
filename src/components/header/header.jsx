@@ -3,45 +3,31 @@ import LogoIcon from "../../assets/icons/logo.svg"
 import PlaceIcon from "../../assets/icons/place-localizer.svg"
 import ClockIcon from "../../assets/icons/clock.svg"
 import PhoneIcon from "../../assets/icons/phone.svg"
+import Link from "next/link";
 
-export default function Header({ setMobileActive, mobileActive, setModalActive={setModalActive}}) {
+export default function Header({ setMobileActive, mobileActive}) {
     return (
         <div className={styles.header}>
             <div className="container">
                 <div className={styles.wrapper}>
-                    {
-                        mobileActive ? (
-                            <button
-                                className={styles.close}
-                                onClick={() => setMobileActive(!mobileActive)}
-                            >
-                                <div className={styles.closeLine}></div>
-                                <div className={styles.closeLine}></div>
-                            </button>
-                        ) : (
-                            <button
-                                className={styles.hamburger}
-                                onClick={() => setMobileActive(!mobileActive)}
-                            >
-                                <div className={styles.hamburgerLine}></div>
-                                <div className={styles.hamburgerLine}></div>
-                                <div className={styles.hamburgerLine}></div>
-                            </button>
-                        )
-                    }
                     <div className={styles.logo}>
-                        <a className={styles.logoLink} href="#">
+                        <Link href="/" className={styles.logoLink}>
                             <LogoIcon />
-                        </a>
+                        </Link>
                     </div>
                     <div className={styles.right}>
                         <div className={styles.contactInfo}>
-                            <div className={styles.contactInfoItem}>
+                            <a
+                              href="https://yandex.uz/maps/-/CCU1bAWcHD"
+                              target="_blank"
+                              className={styles.contactInfoItem}
+                              rel="noreferrer"
+                            >
                                 <div className={styles.contactInfoIcon}>
                                     <PlaceIcon />
                                 </div>
                                 <div className={styles.contactInfoText}>Самара,<br/>ул. Ново-Садовая улица, 252</div>
-                            </div>
+                            </a>
                             <div className={styles.contactInfoItem}>
                                 <div className={styles.contactInfoIcon}>
                                     <ClockIcon />
@@ -62,7 +48,26 @@ export default function Header({ setMobileActive, mobileActive, setModalActive={
                             <span className={styles.phoneCode}>(927)</span>
                             <span className={styles.phoneNumber}>260-20-65</span>
                         </div>
-
+                        {
+                            mobileActive ? (
+                              <button
+                                className={styles.close}
+                                onClick={() => setMobileActive(!mobileActive)}
+                              >
+                                  <div className={styles.closeLine}></div>
+                                  <div className={styles.closeLine}></div>
+                              </button>
+                            ) : (
+                              <button
+                                className={styles.hamburger}
+                                onClick={() => setMobileActive(!mobileActive)}
+                              >
+                                  <div className={styles.hamburgerLine}></div>
+                                  <div className={styles.hamburgerLine}></div>
+                                  <div className={styles.hamburgerLine}></div>
+                              </button>
+                            )
+                        }
                     </div>
                 </div>
             </div>

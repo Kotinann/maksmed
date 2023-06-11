@@ -23,7 +23,7 @@ export default function Privacy() {
         {
           mobileActive && <Mobile setMobileActive={setMobileActive} />
         }
-        <h1><Policy /></h1>
+        <Policy />
         <Footer />
       </main>
     </>
