@@ -13,7 +13,7 @@ export default function Documents() {
                             2018
                         </div>
                         <div className={styles.name}>
-                            <a href="https://disk.yandex.ru/i/72OVbJriH_GF4w" target="_blank">
+                            <a href="https://disk.yandex.ru/i/72OVbJriH_GF4w" target="_blank"  rel="noreferrer" >
                                 Лицензия с приложением
                             </a>
                         </div>
@@ -23,7 +23,7 @@ export default function Documents() {
                             2018
                         </div>
                         <div className={styles.name}>
-                            <a href="https://disk.yandex.ru/i/e5czXxETU4Lm-Q" target="_blank">
+                            <a href="https://disk.yandex.ru/i/e5czXxETU4Lm-Q" target="_blank"  rel="noreferrer" >
                                 Свидетельство о поставновке на учет в налоговом органе
                             </a>
                         </div>
@@ -33,7 +33,7 @@ export default function Documents() {
                             2018
                         </div>
                         <div className={styles.name}>
-                            <a href="https://disk.yandex.ru/i/JpyNH45jDLc5CA" target="_blank">
+                            <a href="https://disk.yandex.ru/i/JpyNH45jDLc5CA" target="_blank"  rel="noreferrer" >
                                 Санитарно-эпидемиологическое заключение
                             </a>
                         </div>
@@ -43,7 +43,7 @@ export default function Documents() {
                             2018
                         </div>
                         <div className={styles.name}>
-                            <a href="https://disk.yandex.ru/i/DwdyFcuxaIDugw" target="_blank">
+                            <a href="https://disk.yandex.ru/i/DwdyFcuxaIDugw" target="_blank"  rel="noreferrer" >
                                 Информация о врачах, ведущих прием в клинике
                             </a>
                         </div>
@@ -53,8 +53,8 @@ export default function Documents() {
                             2012
                         </div>
                         <div className={styles.name}>
-                            <a href="https://disk.yandex.ru/i/PaAuwMBI3AtBXQ" target="_blank">
-                                Постановление "Об утверждении Правил предоставления медицинскими организациями платных медицинских услуг"
+                            <a href="https://disk.yandex.ru/i/PaAuwMBI3AtBXQ" target="_blank"  rel="noreferrer" >
+                                Постановление &quot;Об утверждении Правил предоставления медицинскими организациями платных медицинских услуг&quot;
                             </a>
                         </div>
                     </div>

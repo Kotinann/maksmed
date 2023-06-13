@@ -10,7 +10,7 @@ export default function ReviewsCard(props) {
                     <div className={styles.avatar}>
                         <Image src={props.avatar} alt="avatar1"/>
                     </div>
-                    <a href={props.link} target="_blank"  className={styles.all}>Все отзывы</a>
+                    <a href={props.link} target="_blank"  rel="noreferrer"  className={styles.all}>Все отзывы</a>
                 </div>
                 <div className={styles.body}>
                     <h3 className={styles.name}>{props.name}</h3>

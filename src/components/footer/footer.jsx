@@ -42,7 +42,7 @@ export default function Footer() {
                                     </a>
                                 </li>
                                 <li className={styles.items}>
-                                    <a href="/privacy"  target="_blank" className={styles.link}>
+                                    <a href="/privacy"  target="_blank"  rel="noreferrer" className={styles.link}>
                                         Политика конфиденциальности
                                     </a>
                                 </li>
@@ -56,10 +56,10 @@ export default function Footer() {
                             </div>
                             <div className={styles.footerSocial}>
                                 <div className={styles.social}>
-                                    <a href="https://m.vk.com/maksmedclinic"  target="_blank"  className={styles.vkIcon}>
+                                    <a href="https://m.vk.com/maksmedclinic"  target="_blank"  rel="noreferrer"  className={styles.vkIcon}>
                                         <VkIcon/>
                                     </a>
-                                    <a href="https://www.instagram.com/maksgarkin/" target="_blank" className={styles.instIcon}>
+                                    <a href="https://www.instagram.com/maksgarkin/" target="_blank" rel="noreferrer"  className={styles.instIcon}>
                                         <InstIcon/>
                                     </a>
                                 </div>
@@ -77,7 +77,7 @@ export default function Footer() {
                                 для
                                 сбора технических данных касательно посетителей с целью получения маркетинговой и
                                 статистической информации. Условия обработки данных посетителей сайта см. в <a
-                              href="/privacy"  target="_blank">Политике конфиденциальности</a>. Нажимая кнопку «ОК», вы
+                              href="/privacy"  target="_blank"  rel="noreferrer" >Политике конфиденциальности</a>. Нажимая кнопку «ОК», вы
                                 подтверждаете ваше согласие на обработку данных на указанных выше условиях.
                             </p>
                         </div>

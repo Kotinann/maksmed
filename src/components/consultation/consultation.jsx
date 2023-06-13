@@ -45,7 +45,7 @@ export default function Consultation({openModal, setOpenModal}) {
                         </div>
                         <button className={styles.btn} disabled={isLoading}><a>записаться</a></button>
                         <div className={styles.footer}>
-                            Действуем в соответствии с <a href="/privacy" target="_blank">политикой конфиденциальности</a>
+                            Действуем в соответствии с <a href="/privacy" target="_blank"  rel="noreferrer" >политикой конфиденциальности</a>
                         </div>
                     </form>
                     {

@@ -59,7 +59,7 @@ export default function Mobile() {
                 </div>
             </div>
             <div className={styles.social}>
-                <a href="https://m.vk.com/maksmedclinic" target="_blank" className={styles.vkIcon}>
+                <a href="https://m.vk.com/maksmedclinic" target="_blank"  rel="noreferrer" className={styles.vkIcon}>
                     <VkIcon/>
                 </a>
             </div>
