@@ -1,4 +1,4 @@
-import ReviewsAvatar1 from "../../assets/img/doctors/avatar.png";
+import ReviewsAvatar1 from "../../assets/img/doctors/avatar.jpg";
 
 const reviews = [
     {

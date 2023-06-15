@@ -1,5 +1,5 @@
 import styles from "./reviews.module.scss"
-import ReviewsImg from "../../assets/img/doctors/reviewsImg.png";
+import ReviewsImg from "../../assets/img/doctors/reviewsImg.jpg";
 import ReviewsCard from "@/components/reviews/reviews-card/reviews-card";
 import Image from "next/image";
 import reviewsData from "@/components/reviews/reviews-data";

@@ -76,13 +76,13 @@
   }
 
   @media only screen and (max-width: 1023px) {
-
   }
 }
 
 .reviewsImage {
   flex-shrink: 0;
   position: relative;
+
 
   @media only screen and (max-width: 767px) {
 
@@ -100,6 +100,7 @@
     display: block;
     width: 257px;
     height: auto;
+    border-radius: 150px;
 
     @media only screen and (max-width: 767px) {
 

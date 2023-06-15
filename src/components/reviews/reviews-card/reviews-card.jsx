@@ -1,5 +1,5 @@
 import styles from "./reviews-card.module.scss"
-import ReviewsAvatar from "../../../assets/img/doctors/avatar.png";
+import ReviewsAvatar from "../../../assets/img/doctors/avatar.jpg";
 import Image from "next/image";
 
 export default function ReviewsCard(props) {

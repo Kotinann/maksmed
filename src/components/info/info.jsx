@@ -1,6 +1,6 @@
 import styles from "./info.module.scss"
 import Image from "next/image";
-import infoDoc from "../../assets/img/doctors/Doc.png"
+import infoDoc from "../../assets/img/doctors/Doc.jpg"
 import infoPatient from "../../assets/img/doctors/patient.jpg"
 
 export default function Info() {
