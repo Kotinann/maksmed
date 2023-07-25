@@ -50,7 +50,7 @@ export default function Footer() {
                         </div>
                         <div className={styles.reverseCol}>
                             <div className={styles.license}>
-                                <p>ООО «Максмед».<br/>Пермь, Самара, ул.Ново-Садовая 252
+                                <p>ООО «Максмед».<br/>Самара, ул.Ново-Садовая 252
                                     <br/>Лицензия № ЛО-63-01-004694 от 4 июля 2018 г.
                                 </p>
                             </div>
