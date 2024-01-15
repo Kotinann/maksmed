@@ -33,7 +33,7 @@ export default function Header({ setMobileActive, mobileActive, setModalActive})
                                     <ClockIcon />
                                 </div>
                                 <div className={styles.contactInfoText}>
-                                    <div className={styles.contactInfoDay}>ПН, СР, ПТ: </div>
+                                    <div className={styles.contactInfoDay}>ВТ, ЧТ, СБ: </div>
                                     <div className={styles.contactInfoHour}>09:00~20:00</div>
                                 </div>
                             </div>
