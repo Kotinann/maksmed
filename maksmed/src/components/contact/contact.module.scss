@@ -1,0 +1,195 @@
+@import 'src/styles/variables';
+
+.contact {
+  padding-top: 80px;
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+  }
+}
+
+.title {
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  color: $black;
+}
+
+.desc {
+  margin: 0 auto 32px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.mapWrap {
+  position: relative;
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.map {
+  position: relative;
+  height: 300px;
+  width: 100%;
+
+  @media only screen and (min-width: 768px) {
+    height: auto;
+  }
+
+  @media only screen and (min-width: 1170px) {
+    height: 500px;
+  }
+}
+
+.info {
+  background-color: $green;
+  color: #fff;
+  padding: 30px 40px;
+
+  @media only screen and (min-width: 1170px) {
+    z-index: 10;
+    max-width: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -570px;
+    margin-top: -175px;
+  }
+}
+
+.info a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.info a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.infoTlt {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 36px;
+  text-align: center;
+
+  @media only screen and (max-width: 1200px) {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+.infoDescr {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 38px;
+
+  @media only screen and (max-width: 1200px) {
+    text-align: center;
+  }
+
+
+  @media only screen and (max-width: 767px) {
+    font-size: 16.5px;
+    line-height: 23px;
+    margin-bottom: 12px;
+  }
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 10px;
+
+  @media only screen and (max-width: 1200px) {
+    font-size: 16.5px;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+}
+
+.regim {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+
+  @media only screen and (max-width: 1200px) {
+    padding-left: 30px;
+    font-size: 16.5px;
+  }
+}
+
+.day {
+  margin-right: 4px;
+}
+
+
+.contact {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+
+  @media only screen and (max-width: 1200px) {
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 767px) {
+    margin-top: 14px;
+  }
+}
+
+.contactPhone {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.contactPhone a {
+  font-family: "Open Sans", "Proxima Nova Regular", Helvetica, sans-serif, serif, -apple-system
+}
+
+@media only screen and (max-width: 767px) {
+  .contactPhone {
+    font-size: 18px;
+  }
+}
+
+.contactPhone a {
+  text-decoration: none;
+}
+
+.contactCallback {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  text-decoration-line: underline;
+
+  @media only screen and (max-width: 767px) {
+    margin-top: 7px;
+    font-size: 14px;
+    line-height: 23px;
+  }
+}

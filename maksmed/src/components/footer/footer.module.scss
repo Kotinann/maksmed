@@ -1,0 +1,80 @@
+@import 'src/styles/variables';
+
+.footer {
+  background-color: $green;
+  padding: 40px 0;
+  color: #E9EFED;
+}
+
+
+.menu {
+  margin-bottom: 40px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.link {
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  color: #E9EFED;
+}
+
+.row {
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+}
+
+
+.license {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+
+.social {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+
+  a {
+    display: block;
+  }
+}
+
+.vkIcon {
+  color: #FFFFFF;
+}
+
+.instIcon {
+  color: #FFFFFF;
+}
+
+.cookie {
+  font-size: 12px;
+  line-height: 20px;
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+}
+
+.contraindications {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  max-width: 250px;
+  margin-bottom: 24px;
+}

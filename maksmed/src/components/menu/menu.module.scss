@@ -1,0 +1,88 @@
+@import 'src/styles/variables';
+
+.menu {
+  display: none;
+  position: relative;
+  z-index: 10;
+  background-color: $white;
+  height: 100%;
+  width: 100%;
+  transition: height .3s ease;
+
+  @media only screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+.container {
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+  align-items: center;
+  display: flex;
+  height: 50px;
+
+  @media only screen and (max-width: 1023px) {
+    justify-content: space-between;
+  }
+}
+
+.list {
+  font-size: 14px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  align-self: center;
+  height: 100%;
+  margin-right: 40px;
+  line-height: 1;
+}
+
+.item:first-child a{
+  color: $font-green;
+}
+
+.link {
+  display: block;
+  color: $font-gray;
+  height: 100%;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: $font-green;
+  transition: all 0.3s ease;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 32px;
+}
+
+.contactInfoItem {
+  display: none;
+  align-items: center;
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.contactInfoIcon {
+  margin-right: 8px;
+}
+
+.contactInfoText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: $font-gray;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.contactInfoDay {
+  margin-right: 4px;
+}
